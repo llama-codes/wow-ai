@@ -48,10 +48,17 @@ Assignments belong inside each actor:
 ## Specific Lessons From This Plan
 
 - `Convoke the Spirits` was present in the export metadata and should be a real spell row.
+- For Wyldfire's Restoration Druid fallback profile, use Bobbidyboo's exported Druid metadata for `Convoke the Spirits` and `Tranquility` because the manual export still lists Wyldfire as Balance with no cooldown rows.
 - `Avenging Wrath` was present in the export metadata and should be a real spell row.
-- `Dream Flight` was not present in the export metadata, but the user wanted it as a real spell row, so it was manually supplied.
-- `Mass Dispel`, `Rallying Cry`, and `Healthstone` are safer as notes unless an export contains exact Viserio spell metadata for them.
-- The final generated import validated as `7 actors, 36 spells, 12 notes`.
+- `Stasis` and `Stasis pop` should use exported Viserio metadata when available. The working export used spell ids `370537` and `370564`, `Minor Heal CD`, and Viserio GUIDs `5476581d-731e-4eda-a4ed-a402ee89167e` and `d4c22a8c-92c8-4fe0-a978-0130717bf704`.
+- `Tip the Scales` and `Vaelgor's Final Stare` should use the manual current-usage export metadata when adding the full evoker Stasis package.
+- `Celestial Conduit` should use the manual current-usage export metadata when adding Mistweaver assignments. The working export used spell id `443028`, GUID `46aaa4a2-831f-44c2-b369-564efa7d3bb7`, cooldown `90`, duration `4`, and `Heal CD`.
+- In the current Lightblinded Vanguard plan, the full Stasis package releases on the former Celestial Conduit cadence, and Celestial Conduit has been moved back onto that same cadence so those release windows stack.
+- `Rallying Cry` should use exported Warrior metadata when available. The working export used spell id `97462`, GUID `cf93a6a0-9835-419c-8db8-a367fd5338e8`, base cooldown `180`, duration `10`, `Raid DR`, and the Battlefield Commander modifier setting cooldown to `165`.
+- `Mass Dispel` and `Healthstone` are safer as notes unless an export contains exact Viserio spell metadata for them.
+- Manual current-usage exports can contain mechanic reminders as actor notes. The `Dispels` reminders should be copied as `Everyone` notes with the exported icon and exact timestamps.
+- Add Preservation Evoker prep reminders as personal actor notes when the assignment depends on holding a normal spell for Stasis storage. Dream Breath is 30 seconds baseline, but `Spiritual Clarity` reduces it by 10 seconds, so in this plan Deviiarrc stops using it 20 seconds before each Stasis combo. Use the exported personal text reminder style with the thought-bubble icon.
+- The final generated import validated as `8 actors, 70 spells, 35 notes`.
 
 ## Reusable Workflow
 

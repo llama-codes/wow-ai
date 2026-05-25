@@ -1,0 +1,2152 @@
+{
+  "actors": [
+    {
+      "name": "Bobbidyboo",
+      "realm": "Azjol-Nerub",
+      "playerClass": "Druid",
+      "playerSpec": "Restoration",
+      "spells": [
+        {
+          "spell": {
+            "spellId": 391528,
+            "spellName": "Convoke the Spirits",
+            "wowheadLink": "https://www.wowhead.com/spell=391528",
+            "iconLink": "/viserio-cooldowns/images/druid/391528.jpg",
+            "note": {},
+            "checks": {},
+            "cooldown": 60,
+            "duration": 10,
+            "playerSpellType": "Heal CD",
+            "guid": "06d3eec0-0414-49d0-b774-39b5329a850e"
+          },
+          "startTime": 10,
+          "actorId": "bobbidyboo-azjolnerub",
+          "CustomCooldownSingleCast": null,
+          "customCooldownAllCasts": null,
+          "customDurationSingleCast": null,
+          "customDurationAllCasts": null,
+          "customChargesAllCasts": null,
+          "charges": null,
+          "phaseNumber": 0,
+          "phaseOffset": 10
+        },
+        {
+          "spell": {
+            "spellId": 391528,
+            "spellName": "Convoke the Spirits",
+            "wowheadLink": "https://www.wowhead.com/spell=391528",
+            "iconLink": "/viserio-cooldowns/images/druid/391528.jpg",
+            "note": {},
+            "checks": {},
+            "cooldown": 60,
+            "duration": 10,
+            "playerSpellType": "Heal CD",
+            "guid": "06d3eec0-0414-49d0-b774-39b5329a850e"
+          },
+          "startTime": 74,
+          "actorId": "bobbidyboo-azjolnerub",
+          "CustomCooldownSingleCast": null,
+          "customCooldownAllCasts": null,
+          "customDurationSingleCast": null,
+          "customDurationAllCasts": null,
+          "customChargesAllCasts": null,
+          "charges": null,
+          "phaseNumber": 0,
+          "phaseOffset": 74
+        },
+        {
+          "spell": {
+            "spellId": 391528,
+            "spellName": "Convoke the Spirits",
+            "wowheadLink": "https://www.wowhead.com/spell=391528",
+            "iconLink": "/viserio-cooldowns/images/druid/391528.jpg",
+            "note": {},
+            "checks": {},
+            "cooldown": 60,
+            "duration": 10,
+            "playerSpellType": "Heal CD",
+            "guid": "06d3eec0-0414-49d0-b774-39b5329a850e"
+          },
+          "startTime": 137,
+          "actorId": "bobbidyboo-azjolnerub",
+          "CustomCooldownSingleCast": null,
+          "customCooldownAllCasts": null,
+          "customDurationSingleCast": null,
+          "customDurationAllCasts": null,
+          "customChargesAllCasts": null,
+          "charges": null,
+          "phaseNumber": 0,
+          "phaseOffset": 137
+        },
+        {
+          "spell": {
+            "spellId": 391528,
+            "spellName": "Convoke the Spirits",
+            "wowheadLink": "https://www.wowhead.com/spell=391528",
+            "iconLink": "/viserio-cooldowns/images/druid/391528.jpg",
+            "note": {},
+            "checks": {},
+            "cooldown": 60,
+            "duration": 10,
+            "playerSpellType": "Heal CD",
+            "guid": "06d3eec0-0414-49d0-b774-39b5329a850e"
+          },
+          "startTime": 209,
+          "actorId": "bobbidyboo-azjolnerub",
+          "CustomCooldownSingleCast": null,
+          "customCooldownAllCasts": null,
+          "customDurationSingleCast": null,
+          "customDurationAllCasts": null,
+          "customChargesAllCasts": null,
+          "charges": null,
+          "phaseNumber": 0,
+          "phaseOffset": 209
+        },
+        {
+          "spell": {
+            "spellId": 391528,
+            "spellName": "Convoke the Spirits",
+            "wowheadLink": "https://www.wowhead.com/spell=391528",
+            "iconLink": "/viserio-cooldowns/images/druid/391528.jpg",
+            "note": {},
+            "checks": {},
+            "cooldown": 60,
+            "duration": 10,
+            "playerSpellType": "Heal CD",
+            "guid": "06d3eec0-0414-49d0-b774-39b5329a850e"
+          },
+          "startTime": 275,
+          "actorId": "bobbidyboo-azjolnerub",
+          "CustomCooldownSingleCast": null,
+          "customCooldownAllCasts": null,
+          "customDurationSingleCast": null,
+          "customDurationAllCasts": null,
+          "customChargesAllCasts": null,
+          "charges": null,
+          "phaseNumber": 0,
+          "phaseOffset": 275
+        },
+        {
+          "spell": {
+            "spellId": 391528,
+            "spellName": "Convoke the Spirits",
+            "wowheadLink": "https://www.wowhead.com/spell=391528",
+            "iconLink": "/viserio-cooldowns/images/druid/391528.jpg",
+            "note": {},
+            "checks": {},
+            "cooldown": 60,
+            "duration": 10,
+            "playerSpellType": "Heal CD",
+            "guid": "06d3eec0-0414-49d0-b774-39b5329a850e"
+          },
+          "startTime": 339,
+          "actorId": "bobbidyboo-azjolnerub",
+          "CustomCooldownSingleCast": null,
+          "customCooldownAllCasts": null,
+          "customDurationSingleCast": null,
+          "customDurationAllCasts": null,
+          "customChargesAllCasts": null,
+          "charges": null,
+          "phaseNumber": 0,
+          "phaseOffset": 339
+        },
+        {
+          "spell": {
+            "spellId": 740,
+            "spellName": "Tranquility",
+            "wowheadLink": "https://www.wowhead.com/spell=740/tranquility",
+            "iconLink": "/viserio-cooldowns/images/druid/740.jpg",
+            "note": {},
+            "checks": {},
+            "cooldown": 180,
+            "duration": 6,
+            "playerSpellType": "Heal CD",
+            "guid": "7ea56e43-5557-4785-9ce5-c5b2d6dfd0b8"
+          },
+          "startTime": 21,
+          "actorId": "bobbidyboo-azjolnerub",
+          "CustomCooldownSingleCast": null,
+          "customCooldownAllCasts": null,
+          "customDurationSingleCast": null,
+          "customDurationAllCasts": null,
+          "customChargesAllCasts": null,
+          "charges": null,
+          "phaseNumber": 0,
+          "phaseOffset": 21
+        },
+        {
+          "spell": {
+            "spellId": 740,
+            "spellName": "Tranquility",
+            "wowheadLink": "https://www.wowhead.com/spell=740/tranquility",
+            "iconLink": "/viserio-cooldowns/images/druid/740.jpg",
+            "note": {},
+            "checks": {},
+            "cooldown": 180,
+            "duration": 6,
+            "playerSpellType": "Heal CD",
+            "guid": "7ea56e43-5557-4785-9ce5-c5b2d6dfd0b8"
+          },
+          "startTime": 202,
+          "actorId": "bobbidyboo-azjolnerub",
+          "CustomCooldownSingleCast": null,
+          "customCooldownAllCasts": null,
+          "customDurationSingleCast": null,
+          "customDurationAllCasts": null,
+          "customChargesAllCasts": null,
+          "charges": null,
+          "phaseNumber": 0,
+          "phaseOffset": 202
+        },
+        {
+          "spell": {
+            "spellId": 740,
+            "spellName": "Tranquility",
+            "wowheadLink": "https://www.wowhead.com/spell=740/tranquility",
+            "iconLink": "/viserio-cooldowns/images/druid/740.jpg",
+            "note": {},
+            "checks": {},
+            "cooldown": 180,
+            "duration": 6,
+            "playerSpellType": "Heal CD",
+            "guid": "7ea56e43-5557-4785-9ce5-c5b2d6dfd0b8"
+          },
+          "startTime": 393,
+          "actorId": "bobbidyboo-azjolnerub",
+          "CustomCooldownSingleCast": null,
+          "customCooldownAllCasts": null,
+          "customDurationSingleCast": null,
+          "customDurationAllCasts": null,
+          "customChargesAllCasts": null,
+          "charges": null,
+          "phaseNumber": 0,
+          "phaseOffset": 393
+        }
+      ],
+      "notes": []
+    },
+    {
+      "name": "Nessalove",
+      "realm": "Azjol-Nerub",
+      "playerClass": "Priest",
+      "playerSpec": "Holy",
+      "spells": [
+        {
+          "spell": {
+            "spellId": 64843,
+            "spellName": "Divine Hymn",
+            "wowheadLink": "https://www.wowhead.com/beta/spell=64843/divine-hymn",
+            "iconLink": "/viserio-cooldowns/images/priest/64843.jpg",
+            "note": {},
+            "checks": {},
+            "cooldown": 120,
+            "duration": 19,
+            "playerSpellType": "Heal CD",
+            "guid": "bdb96a7c-1e41-4049-a260-c03cb9fa1a96"
+          },
+          "startTime": 12,
+          "actorId": "nessalove-azjolnerub",
+          "CustomCooldownSingleCast": null,
+          "customCooldownAllCasts": null,
+          "customDurationSingleCast": null,
+          "customDurationAllCasts": null,
+          "customChargesAllCasts": null,
+          "charges": null,
+          "phaseNumber": 0,
+          "phaseOffset": 12
+        },
+        {
+          "spell": {
+            "spellId": 200183,
+            "spellName": "Apotheosis",
+            "wowheadLink": "https://www.wowhead.com/beta/spell=200183/apotheosis",
+            "iconLink": "/viserio-cooldowns/images/priest/200183.jpg",
+            "note": {},
+            "checks": {},
+            "cooldown": 120,
+            "duration": 30,
+            "playerSpellType": "Heal CD",
+            "guid": "ed87014e-e052-4c3d-b4d5-cffd3f850b07"
+          },
+          "startTime": 23,
+          "actorId": "nessalove-azjolnerub",
+          "CustomCooldownSingleCast": null,
+          "customCooldownAllCasts": null,
+          "customDurationSingleCast": null,
+          "customDurationAllCasts": null,
+          "customChargesAllCasts": null,
+          "charges": null,
+          "phaseNumber": 0,
+          "phaseOffset": 23
+        },
+        {
+          "spell": {
+            "spellId": 64843,
+            "spellName": "Divine Hymn",
+            "wowheadLink": "https://www.wowhead.com/beta/spell=64843/divine-hymn",
+            "iconLink": "/viserio-cooldowns/images/priest/64843.jpg",
+            "note": {},
+            "checks": {},
+            "cooldown": 120,
+            "duration": 19,
+            "playerSpellType": "Heal CD",
+            "guid": "bdb96a7c-1e41-4049-a260-c03cb9fa1a96"
+          },
+          "startTime": 139,
+          "actorId": "nessalove-azjolnerub",
+          "CustomCooldownSingleCast": null,
+          "customCooldownAllCasts": null,
+          "customDurationSingleCast": null,
+          "customDurationAllCasts": null,
+          "customChargesAllCasts": null,
+          "charges": null,
+          "phaseNumber": 0,
+          "phaseOffset": 139
+        },
+        {
+          "spell": {
+            "spellId": 200183,
+            "spellName": "Apotheosis",
+            "wowheadLink": "https://www.wowhead.com/beta/spell=200183/apotheosis",
+            "iconLink": "/viserio-cooldowns/images/priest/200183.jpg",
+            "note": {},
+            "checks": {},
+            "cooldown": 120,
+            "duration": 30,
+            "playerSpellType": "Heal CD",
+            "guid": "ed87014e-e052-4c3d-b4d5-cffd3f850b07"
+          },
+          "startTime": 145,
+          "actorId": "nessalove-azjolnerub",
+          "CustomCooldownSingleCast": null,
+          "customCooldownAllCasts": null,
+          "customDurationSingleCast": null,
+          "customDurationAllCasts": null,
+          "customChargesAllCasts": null,
+          "charges": null,
+          "phaseNumber": 0,
+          "phaseOffset": 145
+        },
+        {
+          "spell": {
+            "spellId": 200183,
+            "spellName": "Apotheosis",
+            "wowheadLink": "https://www.wowhead.com/beta/spell=200183/apotheosis",
+            "iconLink": "/viserio-cooldowns/images/priest/200183.jpg",
+            "note": {},
+            "checks": {},
+            "cooldown": 120,
+            "duration": 30,
+            "playerSpellType": "Heal CD",
+            "guid": "ed87014e-e052-4c3d-b4d5-cffd3f850b07"
+          },
+          "startTime": 275,
+          "actorId": "nessalove-azjolnerub",
+          "CustomCooldownSingleCast": null,
+          "customCooldownAllCasts": null,
+          "customDurationSingleCast": null,
+          "customDurationAllCasts": null,
+          "customChargesAllCasts": null,
+          "charges": null,
+          "phaseNumber": 0,
+          "phaseOffset": 275
+        },
+        {
+          "spell": {
+            "spellId": 64843,
+            "spellName": "Divine Hymn",
+            "wowheadLink": "https://www.wowhead.com/beta/spell=64843/divine-hymn",
+            "iconLink": "/viserio-cooldowns/images/priest/64843.jpg",
+            "note": {},
+            "checks": {},
+            "cooldown": 120,
+            "duration": 19,
+            "playerSpellType": "Heal CD",
+            "guid": "bdb96a7c-1e41-4049-a260-c03cb9fa1a96"
+          },
+          "startTime": 318,
+          "actorId": "nessalove-azjolnerub",
+          "CustomCooldownSingleCast": null,
+          "customCooldownAllCasts": null,
+          "customDurationSingleCast": null,
+          "customDurationAllCasts": null,
+          "customChargesAllCasts": null,
+          "charges": null,
+          "phaseNumber": 0,
+          "phaseOffset": 318
+        }
+      ],
+      "notes": [
+        {
+          "actor": "Nessalove",
+          "startTime": 0,
+          "noteText": "Mass Dispel boss bubbles",
+          "icon": "",
+          "phaseNumber": 0,
+          "phaseOffset": 0
+        }
+      ]
+    },
+    {
+      "name": "Deviiarrc",
+      "realm": "Azjol-Nerub",
+      "playerClass": "Evoker",
+      "playerSpec": "Preservation",
+      "spells": [
+        {
+          "spell": {
+            "spellId": 363534,
+            "spellName": "Rewind",
+            "wowheadLink": "https://www.wowhead.com/beta/spell=363534/rewind",
+            "iconLink": "/viserio-cooldowns/images/evoker/363534.jpg",
+            "note": {},
+            "checks": {},
+            "cooldown": 180,
+            "duration": 4,
+            "playerSpellType": "Heal CD",
+            "guid": "3757fabb-b87d-47c8-bd65-f32bf8d256c7"
+          },
+          "startTime": 22,
+          "actorId": "deviiarrc-azjolnerub",
+          "CustomCooldownSingleCast": null,
+          "customCooldownAllCasts": null,
+          "customDurationSingleCast": null,
+          "customDurationAllCasts": null,
+          "customChargesAllCasts": null,
+          "charges": null,
+          "phaseNumber": 0,
+          "phaseOffset": 22
+        },
+        {
+          "spell": {
+            "spellId": 370537,
+            "spellName": "Stasis",
+            "wowheadLink": "https://www.wowhead.com/beta/spell=370537/stasis",
+            "iconLink": "/viserio-cooldowns/images/evoker/370537.jpg",
+            "note": {},
+            "checks": {},
+            "cooldown": 90,
+            "duration": 30,
+            "playerSpellType": "Minor Heal CD",
+            "guid": "5476581d-731e-4eda-a4ed-a402ee89167e"
+          },
+          "startTime": 38,
+          "actorId": "deviiarrc-azjolnerub",
+          "CustomCooldownSingleCast": null,
+          "customCooldownAllCasts": null,
+          "customDurationSingleCast": null,
+          "customDurationAllCasts": null,
+          "customChargesAllCasts": null,
+          "charges": null,
+          "phaseNumber": 0,
+          "phaseOffset": 38
+        },
+        {
+          "spell": {
+            "spellId": 370553,
+            "spellName": "Tip the Scales",
+            "wowheadLink": "https://www.wowhead.com/spell=370553/tip-the-scales",
+            "iconLink": "/viserio-cooldowns/images/evoker/370553.jpg",
+            "note": {},
+            "checks": {},
+            "cooldown": 120,
+            "duration": 0,
+            "playerSpellType": "DPS CD",
+            "guid": "43f50e94-d34b-4e60-8907-9398eca92a13"
+          },
+          "startTime": 38,
+          "actorId": "deviiarrc-azjolnerub",
+          "CustomCooldownSingleCast": null,
+          "customCooldownAllCasts": null,
+          "customDurationSingleCast": null,
+          "customDurationAllCasts": null,
+          "customChargesAllCasts": null,
+          "charges": null,
+          "phaseNumber": 0,
+          "phaseOffset": 38,
+          "talentModifiers": [
+            {
+              "spell": {
+                "spellId": 1260484,
+                "spellName": "Chronoboon",
+                "wowheadLink": "https://www.wowhead.com/spell=1260484",
+                "iconLink": ""
+              },
+              "modifiedValues": {
+                "cooldown": 90
+              }
+            }
+          ]
+        },
+        {
+          "spell": {
+            "spellId": 1260459,
+            "spellName": "Vaelgor's Final Stare",
+            "wowheadLink": "https://www.wowhead.com/spell=1260459/vaelgors-final-stare",
+            "iconLink": "/viserio-cooldowns/images/trinkets/1260459.jpg",
+            "note": {},
+            "checks": {},
+            "cooldown": 90,
+            "duration": 15,
+            "playerSpellType": "Trinkets",
+            "guid": "vaelgors-final-stare-healer"
+          },
+          "startTime": 52,
+          "actorId": "deviiarrc-azjolnerub",
+          "CustomCooldownSingleCast": null,
+          "customCooldownAllCasts": null,
+          "customDurationSingleCast": null,
+          "customDurationAllCasts": null,
+          "customChargesAllCasts": null,
+          "charges": null,
+          "phaseNumber": 0,
+          "phaseOffset": 52
+        },
+        {
+          "spell": {
+            "spellId": 370564,
+            "spellName": "Stasis pop",
+            "wowheadLink": "https://www.wowhead.com/beta/spell=370564/stasis",
+            "iconLink": "/viserio-cooldowns/images/evoker/370537.jpg",
+            "note": {},
+            "checks": {},
+            "cooldown": 0,
+            "duration": 0,
+            "playerSpellType": "Minor Heal CD",
+            "guid": "d4c22a8c-92c8-4fe0-a978-0130717bf704"
+          },
+          "startTime": 58,
+          "actorId": "deviiarrc-azjolnerub",
+          "CustomCooldownSingleCast": null,
+          "customCooldownAllCasts": null,
+          "customDurationSingleCast": null,
+          "customDurationAllCasts": null,
+          "customChargesAllCasts": null,
+          "charges": null,
+          "phaseNumber": 0,
+          "phaseOffset": 58
+        },
+        {
+          "spell": {
+            "spellId": 370537,
+            "spellName": "Stasis",
+            "wowheadLink": "https://www.wowhead.com/beta/spell=370537/stasis",
+            "iconLink": "/viserio-cooldowns/images/evoker/370537.jpg",
+            "note": {},
+            "checks": {},
+            "cooldown": 90,
+            "duration": 30,
+            "playerSpellType": "Minor Heal CD",
+            "guid": "5476581d-731e-4eda-a4ed-a402ee89167e"
+          },
+          "startTime": 128,
+          "actorId": "deviiarrc-azjolnerub",
+          "CustomCooldownSingleCast": null,
+          "customCooldownAllCasts": null,
+          "customDurationSingleCast": null,
+          "customDurationAllCasts": null,
+          "customChargesAllCasts": null,
+          "charges": null,
+          "phaseNumber": 0,
+          "phaseOffset": 128
+        },
+        {
+          "spell": {
+            "spellId": 370553,
+            "spellName": "Tip the Scales",
+            "wowheadLink": "https://www.wowhead.com/spell=370553/tip-the-scales",
+            "iconLink": "/viserio-cooldowns/images/evoker/370553.jpg",
+            "note": {},
+            "checks": {},
+            "cooldown": 120,
+            "duration": 0,
+            "playerSpellType": "DPS CD",
+            "guid": "43f50e94-d34b-4e60-8907-9398eca92a13"
+          },
+          "startTime": 128,
+          "actorId": "deviiarrc-azjolnerub",
+          "CustomCooldownSingleCast": null,
+          "customCooldownAllCasts": null,
+          "customDurationSingleCast": null,
+          "customDurationAllCasts": null,
+          "customChargesAllCasts": null,
+          "charges": null,
+          "phaseNumber": 0,
+          "phaseOffset": 128,
+          "talentModifiers": [
+            {
+              "spell": {
+                "spellId": 1260484,
+                "spellName": "Chronoboon",
+                "wowheadLink": "https://www.wowhead.com/spell=1260484",
+                "iconLink": ""
+              },
+              "modifiedValues": {
+                "cooldown": 90
+              }
+            }
+          ]
+        },
+        {
+          "spell": {
+            "spellId": 1260459,
+            "spellName": "Vaelgor's Final Stare",
+            "wowheadLink": "https://www.wowhead.com/spell=1260459/vaelgors-final-stare",
+            "iconLink": "/viserio-cooldowns/images/trinkets/1260459.jpg",
+            "note": {},
+            "checks": {},
+            "cooldown": 90,
+            "duration": 15,
+            "playerSpellType": "Trinkets",
+            "guid": "vaelgors-final-stare-healer"
+          },
+          "startTime": 142,
+          "actorId": "deviiarrc-azjolnerub",
+          "CustomCooldownSingleCast": null,
+          "customCooldownAllCasts": null,
+          "customDurationSingleCast": null,
+          "customDurationAllCasts": null,
+          "customChargesAllCasts": null,
+          "charges": null,
+          "phaseNumber": 0,
+          "phaseOffset": 142
+        },
+        {
+          "spell": {
+            "spellId": 370564,
+            "spellName": "Stasis pop",
+            "wowheadLink": "https://www.wowhead.com/beta/spell=370564/stasis",
+            "iconLink": "/viserio-cooldowns/images/evoker/370537.jpg",
+            "note": {},
+            "checks": {},
+            "cooldown": 0,
+            "duration": 0,
+            "playerSpellType": "Minor Heal CD",
+            "guid": "d4c22a8c-92c8-4fe0-a978-0130717bf704"
+          },
+          "startTime": 148,
+          "actorId": "deviiarrc-azjolnerub",
+          "CustomCooldownSingleCast": null,
+          "customCooldownAllCasts": null,
+          "customDurationSingleCast": null,
+          "customDurationAllCasts": null,
+          "customChargesAllCasts": null,
+          "charges": null,
+          "phaseNumber": 0,
+          "phaseOffset": 148
+        },
+        {
+          "spell": {
+            "spellId": 363534,
+            "spellName": "Rewind",
+            "wowheadLink": "https://www.wowhead.com/beta/spell=363534/rewind",
+            "iconLink": "/viserio-cooldowns/images/evoker/363534.jpg",
+            "note": {},
+            "checks": {},
+            "cooldown": 180,
+            "duration": 4,
+            "playerSpellType": "Heal CD",
+            "guid": "3757fabb-b87d-47c8-bd65-f32bf8d256c7"
+          },
+          "startTime": 197,
+          "actorId": "deviiarrc-azjolnerub",
+          "CustomCooldownSingleCast": null,
+          "customCooldownAllCasts": null,
+          "customDurationSingleCast": null,
+          "customDurationAllCasts": null,
+          "customChargesAllCasts": null,
+          "charges": null,
+          "phaseNumber": 0,
+          "phaseOffset": 197
+        },
+        {
+          "spell": {
+            "spellId": 370537,
+            "spellName": "Stasis",
+            "wowheadLink": "https://www.wowhead.com/beta/spell=370537/stasis",
+            "iconLink": "/viserio-cooldowns/images/evoker/370537.jpg",
+            "note": {},
+            "checks": {},
+            "cooldown": 90,
+            "duration": 30,
+            "playerSpellType": "Minor Heal CD",
+            "guid": "5476581d-731e-4eda-a4ed-a402ee89167e"
+          },
+          "startTime": 218,
+          "actorId": "deviiarrc-azjolnerub",
+          "CustomCooldownSingleCast": null,
+          "customCooldownAllCasts": null,
+          "customDurationSingleCast": null,
+          "customDurationAllCasts": null,
+          "customChargesAllCasts": null,
+          "charges": null,
+          "phaseNumber": 0,
+          "phaseOffset": 218
+        },
+        {
+          "spell": {
+            "spellId": 370553,
+            "spellName": "Tip the Scales",
+            "wowheadLink": "https://www.wowhead.com/spell=370553/tip-the-scales",
+            "iconLink": "/viserio-cooldowns/images/evoker/370553.jpg",
+            "note": {},
+            "checks": {},
+            "cooldown": 120,
+            "duration": 0,
+            "playerSpellType": "DPS CD",
+            "guid": "43f50e94-d34b-4e60-8907-9398eca92a13"
+          },
+          "startTime": 218,
+          "actorId": "deviiarrc-azjolnerub",
+          "CustomCooldownSingleCast": null,
+          "customCooldownAllCasts": null,
+          "customDurationSingleCast": null,
+          "customDurationAllCasts": null,
+          "customChargesAllCasts": null,
+          "charges": null,
+          "phaseNumber": 0,
+          "phaseOffset": 218,
+          "talentModifiers": [
+            {
+              "spell": {
+                "spellId": 1260484,
+                "spellName": "Chronoboon",
+                "wowheadLink": "https://www.wowhead.com/spell=1260484",
+                "iconLink": ""
+              },
+              "modifiedValues": {
+                "cooldown": 90
+              }
+            }
+          ]
+        },
+        {
+          "spell": {
+            "spellId": 1260459,
+            "spellName": "Vaelgor's Final Stare",
+            "wowheadLink": "https://www.wowhead.com/spell=1260459/vaelgors-final-stare",
+            "iconLink": "/viserio-cooldowns/images/trinkets/1260459.jpg",
+            "note": {},
+            "checks": {},
+            "cooldown": 90,
+            "duration": 15,
+            "playerSpellType": "Trinkets",
+            "guid": "vaelgors-final-stare-healer"
+          },
+          "startTime": 232,
+          "actorId": "deviiarrc-azjolnerub",
+          "CustomCooldownSingleCast": null,
+          "customCooldownAllCasts": null,
+          "customDurationSingleCast": null,
+          "customDurationAllCasts": null,
+          "customChargesAllCasts": null,
+          "charges": null,
+          "phaseNumber": 0,
+          "phaseOffset": 232
+        },
+        {
+          "spell": {
+            "spellId": 370564,
+            "spellName": "Stasis pop",
+            "wowheadLink": "https://www.wowhead.com/beta/spell=370564/stasis",
+            "iconLink": "/viserio-cooldowns/images/evoker/370537.jpg",
+            "note": {},
+            "checks": {},
+            "cooldown": 0,
+            "duration": 0,
+            "playerSpellType": "Minor Heal CD",
+            "guid": "d4c22a8c-92c8-4fe0-a978-0130717bf704"
+          },
+          "startTime": 238,
+          "actorId": "deviiarrc-azjolnerub",
+          "CustomCooldownSingleCast": null,
+          "customCooldownAllCasts": null,
+          "customDurationSingleCast": null,
+          "customDurationAllCasts": null,
+          "customChargesAllCasts": null,
+          "charges": null,
+          "phaseNumber": 0,
+          "phaseOffset": 238
+        },
+        {
+          "spell": {
+            "spellId": 370537,
+            "spellName": "Stasis",
+            "wowheadLink": "https://www.wowhead.com/beta/spell=370537/stasis",
+            "iconLink": "/viserio-cooldowns/images/evoker/370537.jpg",
+            "note": {},
+            "checks": {},
+            "cooldown": 90,
+            "duration": 30,
+            "playerSpellType": "Minor Heal CD",
+            "guid": "5476581d-731e-4eda-a4ed-a402ee89167e"
+          },
+          "startTime": 308,
+          "actorId": "deviiarrc-azjolnerub",
+          "CustomCooldownSingleCast": null,
+          "customCooldownAllCasts": null,
+          "customDurationSingleCast": null,
+          "customDurationAllCasts": null,
+          "customChargesAllCasts": null,
+          "charges": null,
+          "phaseNumber": 0,
+          "phaseOffset": 308
+        },
+        {
+          "spell": {
+            "spellId": 370553,
+            "spellName": "Tip the Scales",
+            "wowheadLink": "https://www.wowhead.com/spell=370553/tip-the-scales",
+            "iconLink": "/viserio-cooldowns/images/evoker/370553.jpg",
+            "note": {},
+            "checks": {},
+            "cooldown": 120,
+            "duration": 0,
+            "playerSpellType": "DPS CD",
+            "guid": "43f50e94-d34b-4e60-8907-9398eca92a13"
+          },
+          "startTime": 308,
+          "actorId": "deviiarrc-azjolnerub",
+          "CustomCooldownSingleCast": null,
+          "customCooldownAllCasts": null,
+          "customDurationSingleCast": null,
+          "customDurationAllCasts": null,
+          "customChargesAllCasts": null,
+          "charges": null,
+          "phaseNumber": 0,
+          "phaseOffset": 308,
+          "talentModifiers": [
+            {
+              "spell": {
+                "spellId": 1260484,
+                "spellName": "Chronoboon",
+                "wowheadLink": "https://www.wowhead.com/spell=1260484",
+                "iconLink": ""
+              },
+              "modifiedValues": {
+                "cooldown": 90
+              }
+            }
+          ]
+        },
+        {
+          "spell": {
+            "spellId": 1260459,
+            "spellName": "Vaelgor's Final Stare",
+            "wowheadLink": "https://www.wowhead.com/spell=1260459/vaelgors-final-stare",
+            "iconLink": "/viserio-cooldowns/images/trinkets/1260459.jpg",
+            "note": {},
+            "checks": {},
+            "cooldown": 90,
+            "duration": 15,
+            "playerSpellType": "Trinkets",
+            "guid": "vaelgors-final-stare-healer"
+          },
+          "startTime": 322,
+          "actorId": "deviiarrc-azjolnerub",
+          "CustomCooldownSingleCast": null,
+          "customCooldownAllCasts": null,
+          "customDurationSingleCast": null,
+          "customDurationAllCasts": null,
+          "customChargesAllCasts": null,
+          "charges": null,
+          "phaseNumber": 0,
+          "phaseOffset": 322
+        },
+        {
+          "spell": {
+            "spellId": 370564,
+            "spellName": "Stasis pop",
+            "wowheadLink": "https://www.wowhead.com/beta/spell=370564/stasis",
+            "iconLink": "/viserio-cooldowns/images/evoker/370537.jpg",
+            "note": {},
+            "checks": {},
+            "cooldown": 0,
+            "duration": 0,
+            "playerSpellType": "Minor Heal CD",
+            "guid": "d4c22a8c-92c8-4fe0-a978-0130717bf704"
+          },
+          "startTime": 328,
+          "actorId": "deviiarrc-azjolnerub",
+          "CustomCooldownSingleCast": null,
+          "customCooldownAllCasts": null,
+          "customDurationSingleCast": null,
+          "customDurationAllCasts": null,
+          "customChargesAllCasts": null,
+          "charges": null,
+          "phaseNumber": 0,
+          "phaseOffset": 328
+        },
+        {
+          "spell": {
+            "spellId": 370537,
+            "spellName": "Stasis",
+            "wowheadLink": "https://www.wowhead.com/beta/spell=370537/stasis",
+            "iconLink": "/viserio-cooldowns/images/evoker/370537.jpg",
+            "note": {},
+            "checks": {},
+            "cooldown": 90,
+            "duration": 30,
+            "playerSpellType": "Minor Heal CD",
+            "guid": "5476581d-731e-4eda-a4ed-a402ee89167e"
+          },
+          "startTime": 398,
+          "actorId": "deviiarrc-azjolnerub",
+          "CustomCooldownSingleCast": null,
+          "customCooldownAllCasts": null,
+          "customDurationSingleCast": null,
+          "customDurationAllCasts": null,
+          "customChargesAllCasts": null,
+          "charges": null,
+          "phaseNumber": 0,
+          "phaseOffset": 398
+        },
+        {
+          "spell": {
+            "spellId": 370553,
+            "spellName": "Tip the Scales",
+            "wowheadLink": "https://www.wowhead.com/spell=370553/tip-the-scales",
+            "iconLink": "/viserio-cooldowns/images/evoker/370553.jpg",
+            "note": {},
+            "checks": {},
+            "cooldown": 120,
+            "duration": 0,
+            "playerSpellType": "DPS CD",
+            "guid": "43f50e94-d34b-4e60-8907-9398eca92a13"
+          },
+          "startTime": 398,
+          "actorId": "deviiarrc-azjolnerub",
+          "CustomCooldownSingleCast": null,
+          "customCooldownAllCasts": null,
+          "customDurationSingleCast": null,
+          "customDurationAllCasts": null,
+          "customChargesAllCasts": null,
+          "charges": null,
+          "phaseNumber": 0,
+          "phaseOffset": 398,
+          "talentModifiers": [
+            {
+              "spell": {
+                "spellId": 1260484,
+                "spellName": "Chronoboon",
+                "wowheadLink": "https://www.wowhead.com/spell=1260484",
+                "iconLink": ""
+              },
+              "modifiedValues": {
+                "cooldown": 90
+              }
+            }
+          ]
+        },
+        {
+          "spell": {
+            "spellId": 1260459,
+            "spellName": "Vaelgor's Final Stare",
+            "wowheadLink": "https://www.wowhead.com/spell=1260459/vaelgors-final-stare",
+            "iconLink": "/viserio-cooldowns/images/trinkets/1260459.jpg",
+            "note": {},
+            "checks": {},
+            "cooldown": 90,
+            "duration": 15,
+            "playerSpellType": "Trinkets",
+            "guid": "vaelgors-final-stare-healer"
+          },
+          "startTime": 412,
+          "actorId": "deviiarrc-azjolnerub",
+          "CustomCooldownSingleCast": null,
+          "customCooldownAllCasts": null,
+          "customDurationSingleCast": null,
+          "customDurationAllCasts": null,
+          "customChargesAllCasts": null,
+          "charges": null,
+          "phaseNumber": 0,
+          "phaseOffset": 412
+        },
+        {
+          "spell": {
+            "spellId": 370564,
+            "spellName": "Stasis pop",
+            "wowheadLink": "https://www.wowhead.com/beta/spell=370564/stasis",
+            "iconLink": "/viserio-cooldowns/images/evoker/370537.jpg",
+            "note": {},
+            "checks": {},
+            "cooldown": 0,
+            "duration": 0,
+            "playerSpellType": "Minor Heal CD",
+            "guid": "d4c22a8c-92c8-4fe0-a978-0130717bf704"
+          },
+          "startTime": 418,
+          "actorId": "deviiarrc-azjolnerub",
+          "CustomCooldownSingleCast": null,
+          "customCooldownAllCasts": null,
+          "customDurationSingleCast": null,
+          "customDurationAllCasts": null,
+          "customChargesAllCasts": null,
+          "charges": null,
+          "phaseNumber": 0,
+          "phaseOffset": 418
+        },
+        {
+          "spell": {
+            "spellId": 363534,
+            "spellName": "Rewind",
+            "wowheadLink": "https://www.wowhead.com/beta/spell=363534/rewind",
+            "iconLink": "/viserio-cooldowns/images/evoker/363534.jpg",
+            "note": {},
+            "checks": {},
+            "cooldown": 180,
+            "duration": 4,
+            "playerSpellType": "Heal CD",
+            "guid": "3757fabb-b87d-47c8-bd65-f32bf8d256c7"
+          },
+          "startTime": 419,
+          "actorId": "deviiarrc-azjolnerub",
+          "CustomCooldownSingleCast": null,
+          "customCooldownAllCasts": null,
+          "customDurationSingleCast": null,
+          "customDurationAllCasts": null,
+          "customChargesAllCasts": null,
+          "charges": null,
+          "phaseNumber": 0,
+          "phaseOffset": 419
+        }
+      ],
+      "notes": [
+        {
+          "actor": "Deviiarrc",
+          "startTime": 18,
+          "noteText": "Do not cast Dream Breath; save for Stasis combo",
+          "icon": "\ud83d\udcad",
+          "phaseNumber": 0,
+          "phaseOffset": 18
+        },
+        {
+          "actor": "Deviiarrc",
+          "startTime": 108,
+          "noteText": "Do not cast Dream Breath; save for Stasis combo",
+          "icon": "\ud83d\udcad",
+          "phaseNumber": 0,
+          "phaseOffset": 108
+        },
+        {
+          "actor": "Deviiarrc",
+          "startTime": 198,
+          "noteText": "Do not cast Dream Breath; save for Stasis combo",
+          "icon": "\ud83d\udcad",
+          "phaseNumber": 0,
+          "phaseOffset": 198
+        },
+        {
+          "actor": "Deviiarrc",
+          "startTime": 288,
+          "noteText": "Do not cast Dream Breath; save for Stasis combo",
+          "icon": "\ud83d\udcad",
+          "phaseNumber": 0,
+          "phaseOffset": 288
+        },
+        {
+          "actor": "Deviiarrc",
+          "startTime": 378,
+          "noteText": "Do not cast Dream Breath; save for Stasis combo",
+          "icon": "\ud83d\udcad",
+          "phaseNumber": 0,
+          "phaseOffset": 378
+        }
+      ]
+    },
+    {
+      "name": "Regidør",
+      "realm": "Azjol-Nerub",
+      "playerClass": "Paladin",
+      "playerSpec": "Holy",
+      "spells": [
+        {
+          "spell": {
+            "spellId": 31884,
+            "spellName": "Avenging Wrath",
+            "wowheadLink": "https://www.wowhead.com/spell=31884/avenging-wrath",
+            "iconLink": "/viserio-cooldowns/images/paladin/31884.jpg",
+            "note": {},
+            "checks": {},
+            "cooldown": 120,
+            "duration": 30,
+            "playerSpellType": "Heal CD",
+            "guid": "fc0d6ab6-fba4-4f3c-add2-f4f37fb4dd6b"
+          },
+          "startTime": 20,
+          "actorId": "regidor-azjolnerub",
+          "CustomCooldownSingleCast": null,
+          "customCooldownAllCasts": null,
+          "customDurationSingleCast": null,
+          "customDurationAllCasts": null,
+          "customChargesAllCasts": null,
+          "charges": null,
+          "phaseNumber": 0,
+          "phaseOffset": 20
+        },
+        {
+          "spell": {
+            "spellId": 31884,
+            "spellName": "Avenging Wrath",
+            "wowheadLink": "https://www.wowhead.com/spell=31884/avenging-wrath",
+            "iconLink": "/viserio-cooldowns/images/paladin/31884.jpg",
+            "note": {},
+            "checks": {},
+            "cooldown": 120,
+            "duration": 30,
+            "playerSpellType": "Heal CD",
+            "guid": "fc0d6ab6-fba4-4f3c-add2-f4f37fb4dd6b"
+          },
+          "startTime": 144,
+          "actorId": "regidor-azjolnerub",
+          "CustomCooldownSingleCast": null,
+          "customCooldownAllCasts": null,
+          "customDurationSingleCast": null,
+          "customDurationAllCasts": null,
+          "customChargesAllCasts": null,
+          "charges": null,
+          "phaseNumber": 0,
+          "phaseOffset": 144
+        },
+        {
+          "spell": {
+            "spellId": 31884,
+            "spellName": "Avenging Wrath",
+            "wowheadLink": "https://www.wowhead.com/spell=31884/avenging-wrath",
+            "iconLink": "/viserio-cooldowns/images/paladin/31884.jpg",
+            "note": {},
+            "checks": {},
+            "cooldown": 120,
+            "duration": 30,
+            "playerSpellType": "Heal CD",
+            "guid": "fc0d6ab6-fba4-4f3c-add2-f4f37fb4dd6b"
+          },
+          "startTime": 264,
+          "actorId": "regidor-azjolnerub",
+          "CustomCooldownSingleCast": null,
+          "customCooldownAllCasts": null,
+          "customDurationSingleCast": null,
+          "customDurationAllCasts": null,
+          "customChargesAllCasts": null,
+          "charges": null,
+          "phaseNumber": 0,
+          "phaseOffset": 264
+        },
+        {
+          "spell": {
+            "spellId": 31884,
+            "spellName": "Avenging Wrath",
+            "wowheadLink": "https://www.wowhead.com/spell=31884/avenging-wrath",
+            "iconLink": "/viserio-cooldowns/images/paladin/31884.jpg",
+            "note": {},
+            "checks": {},
+            "cooldown": 120,
+            "duration": 30,
+            "playerSpellType": "Heal CD",
+            "guid": "fc0d6ab6-fba4-4f3c-add2-f4f37fb4dd6b"
+          },
+          "startTime": 384,
+          "actorId": "regidor-azjolnerub",
+          "CustomCooldownSingleCast": null,
+          "customCooldownAllCasts": null,
+          "customDurationSingleCast": null,
+          "customDurationAllCasts": null,
+          "customChargesAllCasts": null,
+          "charges": null,
+          "phaseNumber": 0,
+          "phaseOffset": 384
+        },
+        {
+          "spell": {
+            "spellId": 31821,
+            "spellName": "Aura Mastery",
+            "wowheadLink": "https://www.wowhead.com/spell=31821/aura-mastery",
+            "iconLink": "/viserio-cooldowns/images/paladin/31821.jpg",
+            "note": {},
+            "checks": {},
+            "cooldown": 180,
+            "duration": 8,
+            "playerSpellType": "Raid DR",
+            "guid": "1dc41677-01d1-4ac7-a9ca-ef005f7a96d5"
+          },
+          "startTime": 144,
+          "actorId": "regidor-azjolnerub",
+          "CustomCooldownSingleCast": null,
+          "customCooldownAllCasts": null,
+          "customDurationSingleCast": null,
+          "customDurationAllCasts": null,
+          "customChargesAllCasts": null,
+          "charges": null,
+          "phaseNumber": 0,
+          "phaseOffset": 144
+        },
+        {
+          "spell": {
+            "spellId": 31821,
+            "spellName": "Aura Mastery",
+            "wowheadLink": "https://www.wowhead.com/spell=31821/aura-mastery",
+            "iconLink": "/viserio-cooldowns/images/paladin/31821.jpg",
+            "note": {},
+            "checks": {},
+            "cooldown": 180,
+            "duration": 8,
+            "playerSpellType": "Raid DR",
+            "guid": "1dc41677-01d1-4ac7-a9ca-ef005f7a96d5"
+          },
+          "startTime": 350,
+          "actorId": "regidor-azjolnerub",
+          "CustomCooldownSingleCast": null,
+          "customCooldownAllCasts": null,
+          "customDurationSingleCast": null,
+          "customDurationAllCasts": null,
+          "customChargesAllCasts": null,
+          "charges": null,
+          "phaseNumber": 0,
+          "phaseOffset": 350
+        }
+      ],
+      "notes": []
+    },
+    {
+      "name": "Wyldfire",
+      "realm": "Azjol-Nerub",
+      "playerClass": "Druid",
+      "playerSpec": "Restoration",
+      "spells": [
+        {
+          "spell": {
+            "spellId": 391528,
+            "spellName": "Convoke the Spirits",
+            "wowheadLink": "https://www.wowhead.com/spell=391528",
+            "iconLink": "/viserio-cooldowns/images/druid/391528.jpg",
+            "note": {},
+            "checks": {},
+            "cooldown": 60,
+            "duration": 10,
+            "playerSpellType": "Heal CD",
+            "guid": "06d3eec0-0414-49d0-b774-39b5329a850e"
+          },
+          "startTime": 20,
+          "actorId": "wyldfire-azjolnerub",
+          "CustomCooldownSingleCast": null,
+          "customCooldownAllCasts": null,
+          "customDurationSingleCast": null,
+          "customDurationAllCasts": null,
+          "customChargesAllCasts": null,
+          "charges": null,
+          "phaseNumber": 0,
+          "phaseOffset": 20
+        },
+        {
+          "spell": {
+            "spellId": 391528,
+            "spellName": "Convoke the Spirits",
+            "wowheadLink": "https://www.wowhead.com/spell=391528",
+            "iconLink": "/viserio-cooldowns/images/druid/391528.jpg",
+            "note": {},
+            "checks": {},
+            "cooldown": 60,
+            "duration": 10,
+            "playerSpellType": "Heal CD",
+            "guid": "06d3eec0-0414-49d0-b774-39b5329a850e"
+          },
+          "startTime": 80,
+          "actorId": "wyldfire-azjolnerub",
+          "CustomCooldownSingleCast": null,
+          "customCooldownAllCasts": null,
+          "customDurationSingleCast": null,
+          "customDurationAllCasts": null,
+          "customChargesAllCasts": null,
+          "charges": null,
+          "phaseNumber": 0,
+          "phaseOffset": 80
+        },
+        {
+          "spell": {
+            "spellId": 740,
+            "spellName": "Tranquility",
+            "wowheadLink": "https://www.wowhead.com/spell=740/tranquility",
+            "iconLink": "/viserio-cooldowns/images/druid/740.jpg",
+            "note": {},
+            "checks": {},
+            "cooldown": 180,
+            "duration": 6,
+            "playerSpellType": "Heal CD",
+            "guid": "7ea56e43-5557-4785-9ce5-c5b2d6dfd0b8"
+          },
+          "startTime": 144,
+          "actorId": "wyldfire-azjolnerub",
+          "CustomCooldownSingleCast": null,
+          "customCooldownAllCasts": null,
+          "customDurationSingleCast": null,
+          "customDurationAllCasts": null,
+          "customChargesAllCasts": null,
+          "charges": null,
+          "phaseNumber": 0,
+          "phaseOffset": 144
+        },
+        {
+          "spell": {
+            "spellId": 391528,
+            "spellName": "Convoke the Spirits",
+            "wowheadLink": "https://www.wowhead.com/spell=391528",
+            "iconLink": "/viserio-cooldowns/images/druid/391528.jpg",
+            "note": {},
+            "checks": {},
+            "cooldown": 60,
+            "duration": 10,
+            "playerSpellType": "Heal CD",
+            "guid": "06d3eec0-0414-49d0-b774-39b5329a850e"
+          },
+          "startTime": 204,
+          "actorId": "wyldfire-azjolnerub",
+          "CustomCooldownSingleCast": null,
+          "customCooldownAllCasts": null,
+          "customDurationSingleCast": null,
+          "customDurationAllCasts": null,
+          "customChargesAllCasts": null,
+          "charges": null,
+          "phaseNumber": 0,
+          "phaseOffset": 204
+        },
+        {
+          "spell": {
+            "spellId": 391528,
+            "spellName": "Convoke the Spirits",
+            "wowheadLink": "https://www.wowhead.com/spell=391528",
+            "iconLink": "/viserio-cooldowns/images/druid/391528.jpg",
+            "note": {},
+            "checks": {},
+            "cooldown": 60,
+            "duration": 10,
+            "playerSpellType": "Heal CD",
+            "guid": "06d3eec0-0414-49d0-b774-39b5329a850e"
+          },
+          "startTime": 264,
+          "actorId": "wyldfire-azjolnerub",
+          "CustomCooldownSingleCast": null,
+          "customCooldownAllCasts": null,
+          "customDurationSingleCast": null,
+          "customDurationAllCasts": null,
+          "customChargesAllCasts": null,
+          "charges": null,
+          "phaseNumber": 0,
+          "phaseOffset": 264
+        },
+        {
+          "spell": {
+            "spellId": 391528,
+            "spellName": "Convoke the Spirits",
+            "wowheadLink": "https://www.wowhead.com/spell=391528",
+            "iconLink": "/viserio-cooldowns/images/druid/391528.jpg",
+            "note": {},
+            "checks": {},
+            "cooldown": 60,
+            "duration": 10,
+            "playerSpellType": "Heal CD",
+            "guid": "06d3eec0-0414-49d0-b774-39b5329a850e"
+          },
+          "startTime": 324,
+          "actorId": "wyldfire-azjolnerub",
+          "CustomCooldownSingleCast": null,
+          "customCooldownAllCasts": null,
+          "customDurationSingleCast": null,
+          "customDurationAllCasts": null,
+          "customChargesAllCasts": null,
+          "charges": null,
+          "phaseNumber": 0,
+          "phaseOffset": 324
+        },
+        {
+          "spell": {
+            "spellId": 740,
+            "spellName": "Tranquility",
+            "wowheadLink": "https://www.wowhead.com/spell=740/tranquility",
+            "iconLink": "/viserio-cooldowns/images/druid/740.jpg",
+            "note": {},
+            "checks": {},
+            "cooldown": 180,
+            "duration": 6,
+            "playerSpellType": "Heal CD",
+            "guid": "7ea56e43-5557-4785-9ce5-c5b2d6dfd0b8"
+          },
+          "startTime": 350,
+          "actorId": "wyldfire-azjolnerub",
+          "CustomCooldownSingleCast": null,
+          "customCooldownAllCasts": null,
+          "customDurationSingleCast": null,
+          "customDurationAllCasts": null,
+          "customChargesAllCasts": null,
+          "charges": null,
+          "phaseNumber": 0,
+          "phaseOffset": 350
+        },
+        {
+          "spell": {
+            "spellId": 391528,
+            "spellName": "Convoke the Spirits",
+            "wowheadLink": "https://www.wowhead.com/spell=391528",
+            "iconLink": "/viserio-cooldowns/images/druid/391528.jpg",
+            "note": {},
+            "checks": {},
+            "cooldown": 60,
+            "duration": 10,
+            "playerSpellType": "Heal CD",
+            "guid": "06d3eec0-0414-49d0-b774-39b5329a850e"
+          },
+          "startTime": 384,
+          "actorId": "wyldfire-azjolnerub",
+          "CustomCooldownSingleCast": null,
+          "customCooldownAllCasts": null,
+          "customDurationSingleCast": null,
+          "customDurationAllCasts": null,
+          "customChargesAllCasts": null,
+          "charges": null,
+          "phaseNumber": 0,
+          "phaseOffset": 384
+        }
+      ],
+      "notes": []
+    },
+    {
+      "name": "Santatumblr",
+      "realm": "Azjol-Nerub",
+      "playerClass": "Monk",
+      "playerSpec": "Mistweaver",
+      "spells": [
+        {
+          "spell": {
+            "spellId": 443028,
+            "spellName": "Celestial Conduit",
+            "wowheadLink": "https://www.wowhead.com/beta/spell=443028/celestial-conduit?spellModifier=137024",
+            "iconLink": "/viserio-cooldowns/images/monk/443028.jpg",
+            "note": {},
+            "checks": {},
+            "cooldown": 90,
+            "duration": 4,
+            "playerSpellType": "Heal CD",
+            "guid": "46aaa4a2-831f-44c2-b369-564efa7d3bb7"
+          },
+          "startTime": 58,
+          "actorId": "santatumblr-azjolnerub",
+          "slotIndex": 0,
+          "CustomCooldownSingleCast": null,
+          "customCooldownAllCasts": null,
+          "customDurationSingleCast": null,
+          "customDurationAllCasts": null,
+          "customChargesAllCasts": null,
+          "charges": null,
+          "phaseNumber": 0,
+          "phaseOffset": 58
+        },
+        {
+          "spell": {
+            "spellId": 115310,
+            "spellName": "Revival",
+            "wowheadLink": "https://www.wowhead.com/spell=115310/revival",
+            "iconLink": "/viserio-cooldowns/images/monk/115310.jpg",
+            "note": {},
+            "checks": {},
+            "cooldown": 180,
+            "duration": 0,
+            "playerSpellType": "Heal CD",
+            "guid": "8afbc98e-8857-4d23-9f27-1afc68fad84d"
+          },
+          "startTime": 72,
+          "actorId": "santatumblr-azjolnerub",
+          "slotIndex": 0,
+          "CustomCooldownSingleCast": null,
+          "customCooldownAllCasts": null,
+          "customDurationSingleCast": null,
+          "customDurationAllCasts": null,
+          "customChargesAllCasts": null,
+          "charges": null,
+          "phaseNumber": 0,
+          "phaseOffset": 72
+        },
+        {
+          "spell": {
+            "spellId": 322118,
+            "spellName": "Invoke Yu'lon, the Jade Serpent",
+            "wowheadLink": "https://www.wowhead.com/spell=322118/invoke-yulon-the-jade-serpent",
+            "iconLink": "/viserio-cooldowns/images/monk/322118.jpg",
+            "note": {},
+            "checks": {},
+            "cooldown": 120,
+            "duration": 12,
+            "playerSpellType": "Heal CD",
+            "guid": "20639b47-c5da-492c-aed6-a4cfbe761f11"
+          },
+          "startTime": 88,
+          "actorId": "santatumblr-azjolnerub",
+          "slotIndex": 0,
+          "CustomCooldownSingleCast": null,
+          "customCooldownAllCasts": null,
+          "customDurationSingleCast": null,
+          "customDurationAllCasts": null,
+          "customChargesAllCasts": null,
+          "charges": null,
+          "phaseNumber": 0,
+          "phaseOffset": 88
+        },
+        {
+          "spell": {
+            "spellId": 443028,
+            "spellName": "Celestial Conduit",
+            "wowheadLink": "https://www.wowhead.com/beta/spell=443028/celestial-conduit?spellModifier=137024",
+            "iconLink": "/viserio-cooldowns/images/monk/443028.jpg",
+            "note": {},
+            "checks": {},
+            "cooldown": 90,
+            "duration": 4,
+            "playerSpellType": "Heal CD",
+            "guid": "46aaa4a2-831f-44c2-b369-564efa7d3bb7"
+          },
+          "startTime": 148,
+          "actorId": "santatumblr-azjolnerub",
+          "slotIndex": 0,
+          "CustomCooldownSingleCast": null,
+          "customCooldownAllCasts": null,
+          "customDurationSingleCast": null,
+          "customDurationAllCasts": null,
+          "customChargesAllCasts": null,
+          "charges": null,
+          "phaseNumber": 0,
+          "phaseOffset": 148
+        },
+        {
+          "spell": {
+            "spellId": 322118,
+            "spellName": "Invoke Yu'lon, the Jade Serpent",
+            "wowheadLink": "https://www.wowhead.com/spell=322118/invoke-yulon-the-jade-serpent",
+            "iconLink": "/viserio-cooldowns/images/monk/322118.jpg",
+            "note": {},
+            "checks": {},
+            "cooldown": 120,
+            "duration": 12,
+            "playerSpellType": "Heal CD",
+            "guid": "20639b47-c5da-492c-aed6-a4cfbe761f11"
+          },
+          "startTime": 213,
+          "actorId": "santatumblr-azjolnerub",
+          "slotIndex": 0,
+          "CustomCooldownSingleCast": null,
+          "customCooldownAllCasts": null,
+          "customDurationSingleCast": null,
+          "customDurationAllCasts": null,
+          "customChargesAllCasts": null,
+          "charges": null,
+          "phaseNumber": 0,
+          "phaseOffset": 213
+        },
+        {
+          "spell": {
+            "spellId": 115310,
+            "spellName": "Revival",
+            "wowheadLink": "https://www.wowhead.com/spell=115310/revival",
+            "iconLink": "/viserio-cooldowns/images/monk/115310.jpg",
+            "note": {},
+            "checks": {},
+            "cooldown": 180,
+            "duration": 0,
+            "playerSpellType": "Heal CD",
+            "guid": "8afbc98e-8857-4d23-9f27-1afc68fad84d"
+          },
+          "startTime": 234,
+          "actorId": "santatumblr-azjolnerub",
+          "slotIndex": 0,
+          "CustomCooldownSingleCast": null,
+          "customCooldownAllCasts": null,
+          "customDurationSingleCast": null,
+          "customDurationAllCasts": null,
+          "customChargesAllCasts": null,
+          "charges": null,
+          "phaseNumber": 0,
+          "phaseOffset": 234
+        },
+        {
+          "spell": {
+            "spellId": 443028,
+            "spellName": "Celestial Conduit",
+            "wowheadLink": "https://www.wowhead.com/beta/spell=443028/celestial-conduit?spellModifier=137024",
+            "iconLink": "/viserio-cooldowns/images/monk/443028.jpg",
+            "note": {},
+            "checks": {},
+            "cooldown": 90,
+            "duration": 4,
+            "playerSpellType": "Heal CD",
+            "guid": "46aaa4a2-831f-44c2-b369-564efa7d3bb7"
+          },
+          "startTime": 238,
+          "actorId": "santatumblr-azjolnerub",
+          "slotIndex": 0,
+          "CustomCooldownSingleCast": null,
+          "customCooldownAllCasts": null,
+          "customDurationSingleCast": null,
+          "customDurationAllCasts": null,
+          "customChargesAllCasts": null,
+          "charges": null,
+          "phaseNumber": 0,
+          "phaseOffset": 238
+        },
+        {
+          "spell": {
+            "spellId": 443028,
+            "spellName": "Celestial Conduit",
+            "wowheadLink": "https://www.wowhead.com/beta/spell=443028/celestial-conduit?spellModifier=137024",
+            "iconLink": "/viserio-cooldowns/images/monk/443028.jpg",
+            "note": {},
+            "checks": {},
+            "cooldown": 90,
+            "duration": 4,
+            "playerSpellType": "Heal CD",
+            "guid": "46aaa4a2-831f-44c2-b369-564efa7d3bb7"
+          },
+          "startTime": 328,
+          "actorId": "santatumblr-azjolnerub",
+          "slotIndex": 0,
+          "CustomCooldownSingleCast": null,
+          "customCooldownAllCasts": null,
+          "customDurationSingleCast": null,
+          "customDurationAllCasts": null,
+          "customChargesAllCasts": null,
+          "charges": null,
+          "phaseNumber": 0,
+          "phaseOffset": 328
+        },
+        {
+          "spell": {
+            "spellId": 322118,
+            "spellName": "Invoke Yu'lon, the Jade Serpent",
+            "wowheadLink": "https://www.wowhead.com/spell=322118/invoke-yulon-the-jade-serpent",
+            "iconLink": "/viserio-cooldowns/images/monk/322118.jpg",
+            "note": {},
+            "checks": {},
+            "cooldown": 120,
+            "duration": 12,
+            "playerSpellType": "Heal CD",
+            "guid": "20639b47-c5da-492c-aed6-a4cfbe761f11"
+          },
+          "startTime": 339,
+          "actorId": "santatumblr-azjolnerub",
+          "slotIndex": 0,
+          "CustomCooldownSingleCast": null,
+          "customCooldownAllCasts": null,
+          "customDurationSingleCast": null,
+          "customDurationAllCasts": null,
+          "customChargesAllCasts": null,
+          "charges": null,
+          "phaseNumber": 0,
+          "phaseOffset": 339
+        },
+        {
+          "spell": {
+            "spellId": 115310,
+            "spellName": "Revival",
+            "wowheadLink": "https://www.wowhead.com/spell=115310/revival",
+            "iconLink": "/viserio-cooldowns/images/monk/115310.jpg",
+            "note": {},
+            "checks": {},
+            "cooldown": 180,
+            "duration": 0,
+            "playerSpellType": "Heal CD",
+            "guid": "8afbc98e-8857-4d23-9f27-1afc68fad84d"
+          },
+          "startTime": 396,
+          "actorId": "santatumblr-azjolnerub",
+          "slotIndex": 0,
+          "CustomCooldownSingleCast": null,
+          "customCooldownAllCasts": null,
+          "customDurationSingleCast": null,
+          "customDurationAllCasts": null,
+          "customChargesAllCasts": null,
+          "charges": null,
+          "phaseNumber": 0,
+          "phaseOffset": 396
+        },
+        {
+          "spell": {
+            "spellId": 443028,
+            "spellName": "Celestial Conduit",
+            "wowheadLink": "https://www.wowhead.com/beta/spell=443028/celestial-conduit?spellModifier=137024",
+            "iconLink": "/viserio-cooldowns/images/monk/443028.jpg",
+            "note": {},
+            "checks": {},
+            "cooldown": 90,
+            "duration": 4,
+            "playerSpellType": "Heal CD",
+            "guid": "46aaa4a2-831f-44c2-b369-564efa7d3bb7"
+          },
+          "startTime": 418,
+          "actorId": "santatumblr-azjolnerub",
+          "slotIndex": 0,
+          "CustomCooldownSingleCast": null,
+          "customCooldownAllCasts": null,
+          "customDurationSingleCast": null,
+          "customDurationAllCasts": null,
+          "customChargesAllCasts": null,
+          "charges": null,
+          "phaseNumber": 0,
+          "phaseOffset": 418
+        }
+      ],
+      "notes": []
+    },
+    {
+      "name": "Flakiron",
+      "realm": "Azjol-Nerub",
+      "playerClass": "Warrior",
+      "playerSpec": "Protection",
+      "spells": [
+        {
+          "spell": {
+            "spellId": 97462,
+            "spellName": "Rallying Cry",
+            "wowheadLink": "https://www.wowhead.com/spell=97462/rallying-cry",
+            "iconLink": "/viserio-cooldowns/images/warrior/97462.jpg",
+            "note": {},
+            "checks": {},
+            "cooldown": 180,
+            "duration": 10,
+            "playerSpellType": "Raid DR",
+            "guid": "cf93a6a0-9835-419c-8db8-a367fd5338e8",
+            "talentModifiers": [
+              {
+                "spell": {
+                  "spellId": 424742,
+                  "spellName": "Battlefield Commander",
+                  "wowheadLink": "https://www.wowhead.com/spell=424742",
+                  "iconLink": ""
+                },
+                "modifiedValues": {
+                  "cooldown": 165
+                }
+              }
+            ]
+          },
+          "startTime": 144,
+          "actorId": "flakiron-azjolnerub",
+          "CustomCooldownSingleCast": null,
+          "customCooldownAllCasts": null,
+          "customDurationSingleCast": null,
+          "customDurationAllCasts": null,
+          "customChargesAllCasts": null,
+          "charges": null,
+          "phaseNumber": 0,
+          "phaseOffset": 144
+        },
+        {
+          "spell": {
+            "spellId": 97462,
+            "spellName": "Rallying Cry",
+            "wowheadLink": "https://www.wowhead.com/spell=97462/rallying-cry",
+            "iconLink": "/viserio-cooldowns/images/warrior/97462.jpg",
+            "note": {},
+            "checks": {},
+            "cooldown": 180,
+            "duration": 10,
+            "playerSpellType": "Raid DR",
+            "guid": "cf93a6a0-9835-419c-8db8-a367fd5338e8",
+            "talentModifiers": [
+              {
+                "spell": {
+                  "spellId": 424742,
+                  "spellName": "Battlefield Commander",
+                  "wowheadLink": "https://www.wowhead.com/spell=424742",
+                  "iconLink": ""
+                },
+                "modifiedValues": {
+                  "cooldown": 165
+                }
+              }
+            ]
+          },
+          "startTime": 327,
+          "actorId": "flakiron-azjolnerub",
+          "CustomCooldownSingleCast": null,
+          "customCooldownAllCasts": null,
+          "customDurationSingleCast": null,
+          "customDurationAllCasts": null,
+          "customChargesAllCasts": null,
+          "charges": null,
+          "phaseNumber": 0,
+          "phaseOffset": 327
+        }
+      ],
+      "notes": []
+    },
+    {
+      "name": "Everyone",
+      "realm": null,
+      "playerClass": "None",
+      "playerSpec": "All Roles",
+      "spells": [
+        {
+          "spell": {
+            "spellId": 431416,
+            "spellName": "Personals",
+            "wowheadLink": "",
+            "iconLink": "/viserio-cooldowns/images/everyone/134952.jpg",
+            "note": {},
+            "checks": {},
+            "cooldown": 60,
+            "duration": 0,
+            "playerSpellType": "Defensives",
+            "guid": "667be180-5263-42e7-b8ab-84a95996b3ff"
+          },
+          "startTime": 85,
+          "actorId": "everyone-",
+          "CustomCooldownSingleCast": null,
+          "customCooldownAllCasts": null,
+          "customDurationSingleCast": null,
+          "customDurationAllCasts": null,
+          "customChargesAllCasts": null,
+          "charges": null,
+          "phaseNumber": 0,
+          "phaseOffset": 85
+        },
+        {
+          "spell": {
+            "spellId": 431416,
+            "spellName": "Personals",
+            "wowheadLink": "",
+            "iconLink": "/viserio-cooldowns/images/everyone/134952.jpg",
+            "note": {},
+            "checks": {},
+            "cooldown": 60,
+            "duration": 0,
+            "playerSpellType": "Defensives",
+            "guid": "667be180-5263-42e7-b8ab-84a95996b3ff"
+          },
+          "startTime": 165,
+          "actorId": "everyone-",
+          "CustomCooldownSingleCast": null,
+          "customCooldownAllCasts": null,
+          "customDurationSingleCast": null,
+          "customDurationAllCasts": null,
+          "customChargesAllCasts": null,
+          "charges": null,
+          "phaseNumber": 0,
+          "phaseOffset": 165
+        },
+        {
+          "spell": {
+            "spellId": 431416,
+            "spellName": "Personals",
+            "wowheadLink": "",
+            "iconLink": "/viserio-cooldowns/images/everyone/134952.jpg",
+            "note": {},
+            "checks": {},
+            "cooldown": 60,
+            "duration": 0,
+            "playerSpellType": "Defensives",
+            "guid": "667be180-5263-42e7-b8ab-84a95996b3ff"
+          },
+          "startTime": 245,
+          "actorId": "everyone-",
+          "CustomCooldownSingleCast": null,
+          "customCooldownAllCasts": null,
+          "customDurationSingleCast": null,
+          "customDurationAllCasts": null,
+          "customChargesAllCasts": null,
+          "charges": null,
+          "phaseNumber": 0,
+          "phaseOffset": 245
+        },
+        {
+          "spell": {
+            "spellId": 431416,
+            "spellName": "Personals",
+            "wowheadLink": "",
+            "iconLink": "/viserio-cooldowns/images/everyone/134952.jpg",
+            "note": {},
+            "checks": {},
+            "cooldown": 60,
+            "duration": 0,
+            "playerSpellType": "Defensives",
+            "guid": "667be180-5263-42e7-b8ab-84a95996b3ff"
+          },
+          "startTime": 305,
+          "actorId": "everyone-",
+          "CustomCooldownSingleCast": null,
+          "customCooldownAllCasts": null,
+          "customDurationSingleCast": null,
+          "customDurationAllCasts": null,
+          "customChargesAllCasts": null,
+          "charges": null,
+          "phaseNumber": 0,
+          "phaseOffset": 305
+        },
+        {
+          "spell": {
+            "spellId": 431416,
+            "spellName": "Personals",
+            "wowheadLink": "",
+            "iconLink": "/viserio-cooldowns/images/everyone/134952.jpg",
+            "note": {},
+            "checks": {},
+            "cooldown": 60,
+            "duration": 0,
+            "playerSpellType": "Defensives",
+            "guid": "667be180-5263-42e7-b8ab-84a95996b3ff"
+          },
+          "startTime": 327,
+          "actorId": "everyone-",
+          "CustomCooldownSingleCast": null,
+          "customCooldownAllCasts": null,
+          "customDurationSingleCast": null,
+          "customDurationAllCasts": null,
+          "customChargesAllCasts": null,
+          "charges": null,
+          "phaseNumber": 0,
+          "phaseOffset": 327
+        }
+      ],
+      "notes": [
+        {
+          "actor": "Everyone",
+          "startTime": 18,
+          "noteText": "Dispels",
+          "icon": "\ud83d\udcad",
+          "phaseNumber": 0,
+          "phaseOffset": 18
+        },
+        {
+          "actor": "Everyone",
+          "startTime": 72,
+          "noteText": "Dispels",
+          "icon": "\ud83d\udcad",
+          "phaseNumber": 0,
+          "phaseOffset": 72
+        },
+        {
+          "actor": "Everyone",
+          "startTime": 81,
+          "noteText": "Venel / Execution Sentence incoming",
+          "icon": "",
+          "phaseNumber": 0,
+          "phaseOffset": 81
+        },
+        {
+          "actor": "Everyone",
+          "startTime": 96,
+          "noteText": "Dispels",
+          "icon": "\ud83d\udcad",
+          "phaseNumber": 0,
+          "phaseOffset": 96
+        },
+        {
+          "actor": "Everyone",
+          "startTime": 108,
+          "noteText": "Dispels",
+          "icon": "\ud83d\udcad",
+          "phaseNumber": 0,
+          "phaseOffset": 108
+        },
+        {
+          "actor": "Everyone",
+          "startTime": 126,
+          "noteText": "Dispels",
+          "icon": "\ud83d\udcad",
+          "phaseNumber": 0,
+          "phaseOffset": 126
+        },
+        {
+          "actor": "Everyone",
+          "startTime": 137,
+          "noteText": "Senn / Aura of Peace / Execution Sentence incoming",
+          "icon": "",
+          "phaseNumber": 0,
+          "phaseOffset": 137
+        },
+        {
+          "actor": "Everyone",
+          "startTime": 140,
+          "noteText": "Dispels",
+          "icon": "\ud83d\udcad",
+          "phaseNumber": 0,
+          "phaseOffset": 140
+        },
+        {
+          "actor": "Everyone",
+          "startTime": 145,
+          "noteText": "Healthstones for Execution Sentence hit",
+          "icon": "",
+          "phaseNumber": 0,
+          "phaseOffset": 145
+        },
+        {
+          "actor": "Everyone",
+          "startTime": 146,
+          "noteText": "Dispels",
+          "icon": "\ud83d\udcad",
+          "phaseNumber": 0,
+          "phaseOffset": 146
+        },
+        {
+          "actor": "Everyone",
+          "startTime": 147,
+          "noteText": "Hard focus Tyr's Wrath absorbs; clear before 2:45",
+          "icon": "",
+          "phaseNumber": 0,
+          "phaseOffset": 147
+        },
+        {
+          "actor": "Everyone",
+          "startTime": 162,
+          "noteText": "Dispels",
+          "icon": "\ud83d\udcad",
+          "phaseNumber": 0,
+          "phaseOffset": 162
+        },
+        {
+          "actor": "Everyone",
+          "startTime": 180,
+          "noteText": "Dispels",
+          "icon": "\ud83d\udcad",
+          "phaseNumber": 0,
+          "phaseOffset": 180
+        },
+        {
+          "actor": "Everyone",
+          "startTime": 187,
+          "noteText": "Bellamy 2",
+          "icon": "",
+          "phaseNumber": 0,
+          "phaseOffset": 187
+        },
+        {
+          "actor": "Everyone",
+          "startTime": 234,
+          "noteText": "Dispels",
+          "icon": "\ud83d\udcad",
+          "phaseNumber": 0,
+          "phaseOffset": 234
+        },
+        {
+          "actor": "Everyone",
+          "startTime": 240,
+          "noteText": "Venel 2",
+          "icon": "",
+          "phaseNumber": 0,
+          "phaseOffset": 240
+        },
+        {
+          "actor": "Everyone",
+          "startTime": 255,
+          "noteText": "Dispels",
+          "icon": "\ud83d\udcad",
+          "phaseNumber": 0,
+          "phaseOffset": 255
+        },
+        {
+          "actor": "Everyone",
+          "startTime": 270,
+          "noteText": "Dispels",
+          "icon": "\ud83d\udcad",
+          "phaseNumber": 0,
+          "phaseOffset": 270
+        },
+        {
+          "actor": "Everyone",
+          "startTime": 273,
+          "noteText": "Sacred Toll - stabilize",
+          "icon": "",
+          "phaseNumber": 0,
+          "phaseOffset": 273
+        },
+        {
+          "actor": "Everyone",
+          "startTime": 288,
+          "noteText": "Dispels",
+          "icon": "\ud83d\udcad",
+          "phaseNumber": 0,
+          "phaseOffset": 288
+        },
+        {
+          "actor": "Everyone",
+          "startTime": 296,
+          "noteText": "Senn 2",
+          "icon": "",
+          "phaseNumber": 0,
+          "phaseOffset": 296
+        },
+        {
+          "actor": "Everyone",
+          "startTime": 299,
+          "noteText": "Dispels",
+          "icon": "\ud83d\udcad",
+          "phaseNumber": 0,
+          "phaseOffset": 299
+        },
+        {
+          "actor": "Everyone",
+          "startTime": 306,
+          "noteText": "Dispels",
+          "icon": "\ud83d\udcad",
+          "phaseNumber": 0,
+          "phaseOffset": 306
+        },
+        {
+          "actor": "Everyone",
+          "startTime": 326,
+          "noteText": "Dispels",
+          "icon": "\ud83d\udcad",
+          "phaseNumber": 0,
+          "phaseOffset": 326
+        },
+        {
+          "actor": "Everyone",
+          "startTime": 342,
+          "noteText": "Dispels",
+          "icon": "\ud83d\udcad",
+          "phaseNumber": 0,
+          "phaseOffset": 342
+        },
+        {
+          "actor": "Everyone",
+          "startTime": 346,
+          "noteText": "Bellamy 3",
+          "icon": "",
+          "phaseNumber": 0,
+          "phaseOffset": 346
+        },
+        {
+          "actor": "Everyone",
+          "startTime": 363,
+          "noteText": "Sacred Toll",
+          "icon": "",
+          "phaseNumber": 0,
+          "phaseOffset": 363
+        },
+        {
+          "actor": "Everyone",
+          "startTime": 396,
+          "noteText": "Dispels",
+          "icon": "\ud83d\udcad",
+          "phaseNumber": 0,
+          "phaseOffset": 396
+        },
+        {
+          "actor": "Everyone",
+          "startTime": 414,
+          "noteText": "Dispels",
+          "icon": "\ud83d\udcad",
+          "phaseNumber": 0,
+          "phaseOffset": 414
+        }
+      ]
+    }
+  ],
+  "phases": [
+    {
+      "phaseNumber": 0,
+      "phaseTimer": 0
+    },
+    {
+      "phaseNumber": 1,
+      "phaseTimer": 480
+    }
+  ],
+  "customGridRows": []
+}

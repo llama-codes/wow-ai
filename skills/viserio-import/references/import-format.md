@@ -166,6 +166,70 @@ Mass Dispel can be represented as a note unless the export contains a Viserio sp
 
 ```json
 {
+  "spellId": 370537,
+  "spellName": "Stasis",
+  "wowheadLink": "https://www.wowhead.com/beta/spell=370537/stasis",
+  "iconLink": "/viserio-cooldowns/images/evoker/370537.jpg",
+  "note": {},
+  "checks": {},
+  "cooldown": 90,
+  "duration": 30,
+  "playerSpellType": "Minor Heal CD",
+  "guid": "5476581d-731e-4eda-a4ed-a402ee89167e"
+}
+```
+
+```json
+{
+  "spellId": 370564,
+  "spellName": "Stasis pop",
+  "wowheadLink": "https://www.wowhead.com/beta/spell=370564/stasis",
+  "iconLink": "/viserio-cooldowns/images/evoker/370537.jpg",
+  "note": {},
+  "checks": {},
+  "cooldown": 0,
+  "duration": 0,
+  "playerSpellType": "Minor Heal CD",
+  "guid": "d4c22a8c-92c8-4fe0-a978-0130717bf704"
+}
+```
+
+The Stasis and Stasis pop GUIDs above came from a working Viserio export. Preserve them when making real spell rows.
+
+```json
+{
+  "spellId": 370553,
+  "spellName": "Tip the Scales",
+  "wowheadLink": "https://www.wowhead.com/spell=370553/tip-the-scales",
+  "iconLink": "/viserio-cooldowns/images/evoker/370553.jpg",
+  "note": {},
+  "checks": {},
+  "cooldown": 120,
+  "duration": 0,
+  "playerSpellType": "DPS CD",
+  "guid": "43f50e94-d34b-4e60-8907-9398eca92a13"
+}
+```
+
+When adding Tip the Scales from the manual current-usage export, preserve the row-level `talentModifiers` for `Chronoboon` if present.
+
+```json
+{
+  "spellId": 1260459,
+  "spellName": "Vaelgor's Final Stare",
+  "wowheadLink": "https://www.wowhead.com/spell=1260459/vaelgors-final-stare",
+  "iconLink": "/viserio-cooldowns/images/trinkets/1260459.jpg",
+  "note": {},
+  "checks": {},
+  "cooldown": 90,
+  "duration": 15,
+  "playerSpellType": "Trinkets",
+  "guid": "vaelgors-final-stare-healer"
+}
+```
+
+```json
+{
   "spellId": 359816,
   "spellName": "Dream Flight",
   "wowheadLink": "https://www.wowhead.com/spell=359816/dream-flight",
@@ -245,6 +309,55 @@ The Dream Flight GUID above is a manual placeholder from local usage; replace it
 }
 ```
 
+```json
+{
+  "spellId": 443028,
+  "spellName": "Celestial Conduit",
+  "wowheadLink": "https://www.wowhead.com/beta/spell=443028/celestial-conduit?spellModifier=137024",
+  "iconLink": "/viserio-cooldowns/images/monk/443028.jpg",
+  "note": {},
+  "checks": {},
+  "cooldown": 90,
+  "duration": 4,
+  "playerSpellType": "Heal CD",
+  "guid": "46aaa4a2-831f-44c2-b369-564efa7d3bb7"
+}
+```
+
+The Celestial Conduit GUID above came from the manual current-usage export. Preserve it when making real spell rows.
+
+### Warrior
+
+```json
+{
+  "spellId": 97462,
+  "spellName": "Rallying Cry",
+  "wowheadLink": "https://www.wowhead.com/spell=97462/rallying-cry",
+  "iconLink": "/viserio-cooldowns/images/warrior/97462.jpg",
+  "note": {},
+  "checks": {},
+  "cooldown": 180,
+  "duration": 10,
+  "playerSpellType": "Raid DR",
+  "guid": "cf93a6a0-9835-419c-8db8-a367fd5338e8",
+  "talentModifiers": [
+    {
+      "spell": {
+        "spellId": 424742,
+        "spellName": "Battlefield Commander",
+        "wowheadLink": "https://www.wowhead.com/spell=424742",
+        "iconLink": ""
+      },
+      "modifiedValues": {
+        "cooldown": 165
+      }
+    }
+  ]
+}
+```
+
+The Rallying Cry GUID and Battlefield Commander modifier above came from a working Viserio assignment export. Preserve them when making real spell rows.
+
 ### Everyone
 
 ```json
@@ -262,4 +375,4 @@ The Dream Flight GUID above is a manual placeholder from local usage; replace it
 }
 ```
 
-Rallying Cry and Healthstone should use exported spell metadata when available; otherwise use notes or ask for a Viserio export containing those spells.
+Healthstone should use exported spell metadata when available; otherwise use notes or ask for a Viserio export containing it.
