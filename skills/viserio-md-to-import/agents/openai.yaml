@@ -1,0 +1,4 @@
+interface:
+  display_name: "Viserio MD To Import"
+  short_description: "Generate Viserio imports from Markdown"
+  default_prompt: "Use $viserio-md-to-import to generate a Viserio import JSON from a Markdown timeline and export."

@@ -1,4 +1,4 @@
 interface:
-  display_name: "Viserio Import"
-  short_description: "Build Viserio cooldown assignment imports"
-  default_prompt: "Use $viserio-import to turn a raid cooldown plan and Viserio export into an importable assignments object."
+  display_name: "Viserio Import Workflow"
+  short_description: "Orchestrate Viserio assignment workflows"
+  default_prompt: "Use $viserio-import to orchestrate a Viserio export, Markdown plan, import JSON, and validation workflow."

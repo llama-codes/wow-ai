@@ -1,0 +1,4 @@
+interface:
+  display_name: "Viserio Validate Import"
+  short_description: "Validate and repair Viserio import JSON"
+  default_prompt: "Use $viserio-validate-import to validate or repair a Viserio assignment import JSON."

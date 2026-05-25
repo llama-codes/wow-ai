@@ -1,0 +1,4 @@
+interface:
+  display_name: "Viserio Export To MD"
+  short_description: "Convert Viserio exports to Markdown plans"
+  default_prompt: "Use $viserio-export-to-md to convert a Viserio export into an editable Markdown timeline."
