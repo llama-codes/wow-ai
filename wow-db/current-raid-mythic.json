@@ -1,0 +1,304 @@
+{
+  "$schema": "./schema.json",
+  "expansion": "Midnight",
+  "patch": "12.0.5",
+  "raidName": "The Voidspire",
+  "difficulty": "Mythic",
+  "generatedAt": "2026-05-26T00:28:00Z",
+  "sourceWindow": "last 14 days",
+  "sources": [
+    {
+      "name": "Archon",
+      "url": "https://www.archon.gg/wow/builds/arcane/mage/raid/overview/mythic/all-bosses",
+      "usage": "Data-driven build metrics, stat priorities, talent recommendations, parse counts, and source links."
+    },
+    {
+      "name": "Wowhead Tooltips",
+      "url": "https://www.wowhead.com/tooltips",
+      "usage": "Canonical tooltip-friendly talent, spell, and item links."
+    }
+  ],
+  "warnings": [],
+  "specFiles": [
+    {
+      "id": "blood-death-knight",
+      "className": "Death Knight",
+      "specName": "Blood",
+      "role": "Tank",
+      "path": "specs/death-knight/blood.json"
+    },
+    {
+      "id": "frost-death-knight",
+      "className": "Death Knight",
+      "specName": "Frost",
+      "role": "DPS",
+      "path": "specs/death-knight/frost.json"
+    },
+    {
+      "id": "unholy-death-knight",
+      "className": "Death Knight",
+      "specName": "Unholy",
+      "role": "DPS",
+      "path": "specs/death-knight/unholy.json"
+    },
+    {
+      "id": "devourer-demon-hunter",
+      "className": "Demon Hunter",
+      "specName": "Devourer",
+      "role": "DPS",
+      "path": "specs/demon-hunter/devourer.json"
+    },
+    {
+      "id": "havoc-demon-hunter",
+      "className": "Demon Hunter",
+      "specName": "Havoc",
+      "role": "DPS",
+      "path": "specs/demon-hunter/havoc.json"
+    },
+    {
+      "id": "vengeance-demon-hunter",
+      "className": "Demon Hunter",
+      "specName": "Vengeance",
+      "role": "Tank",
+      "path": "specs/demon-hunter/vengeance.json"
+    },
+    {
+      "id": "balance-druid",
+      "className": "Druid",
+      "specName": "Balance",
+      "role": "DPS",
+      "path": "specs/druid/balance.json"
+    },
+    {
+      "id": "feral-druid",
+      "className": "Druid",
+      "specName": "Feral",
+      "role": "DPS",
+      "path": "specs/druid/feral.json"
+    },
+    {
+      "id": "guardian-druid",
+      "className": "Druid",
+      "specName": "Guardian",
+      "role": "Tank",
+      "path": "specs/druid/guardian.json"
+    },
+    {
+      "id": "restoration-druid",
+      "className": "Druid",
+      "specName": "Restoration",
+      "role": "Healer",
+      "path": "specs/druid/restoration.json"
+    },
+    {
+      "id": "augmentation-evoker",
+      "className": "Evoker",
+      "specName": "Augmentation",
+      "role": "DPS",
+      "path": "specs/evoker/augmentation.json"
+    },
+    {
+      "id": "devastation-evoker",
+      "className": "Evoker",
+      "specName": "Devastation",
+      "role": "DPS",
+      "path": "specs/evoker/devastation.json"
+    },
+    {
+      "id": "preservation-evoker",
+      "className": "Evoker",
+      "specName": "Preservation",
+      "role": "Healer",
+      "path": "specs/evoker/preservation.json"
+    },
+    {
+      "id": "beast-mastery-hunter",
+      "className": "Hunter",
+      "specName": "Beast Mastery",
+      "role": "DPS",
+      "path": "specs/hunter/beast-mastery.json"
+    },
+    {
+      "id": "marksmanship-hunter",
+      "className": "Hunter",
+      "specName": "Marksmanship",
+      "role": "DPS",
+      "path": "specs/hunter/marksmanship.json"
+    },
+    {
+      "id": "survival-hunter",
+      "className": "Hunter",
+      "specName": "Survival",
+      "role": "DPS",
+      "path": "specs/hunter/survival.json"
+    },
+    {
+      "id": "arcane-mage",
+      "className": "Mage",
+      "specName": "Arcane",
+      "role": "DPS",
+      "path": "specs/mage/arcane.json"
+    },
+    {
+      "id": "fire-mage",
+      "className": "Mage",
+      "specName": "Fire",
+      "role": "DPS",
+      "path": "specs/mage/fire.json"
+    },
+    {
+      "id": "frost-mage",
+      "className": "Mage",
+      "specName": "Frost",
+      "role": "DPS",
+      "path": "specs/mage/frost.json"
+    },
+    {
+      "id": "brewmaster-monk",
+      "className": "Monk",
+      "specName": "Brewmaster",
+      "role": "Tank",
+      "path": "specs/monk/brewmaster.json"
+    },
+    {
+      "id": "mistweaver-monk",
+      "className": "Monk",
+      "specName": "Mistweaver",
+      "role": "Healer",
+      "path": "specs/monk/mistweaver.json"
+    },
+    {
+      "id": "windwalker-monk",
+      "className": "Monk",
+      "specName": "Windwalker",
+      "role": "DPS",
+      "path": "specs/monk/windwalker.json"
+    },
+    {
+      "id": "holy-paladin",
+      "className": "Paladin",
+      "specName": "Holy",
+      "role": "Healer",
+      "path": "specs/paladin/holy.json"
+    },
+    {
+      "id": "protection-paladin",
+      "className": "Paladin",
+      "specName": "Protection",
+      "role": "Tank",
+      "path": "specs/paladin/protection.json"
+    },
+    {
+      "id": "retribution-paladin",
+      "className": "Paladin",
+      "specName": "Retribution",
+      "role": "DPS",
+      "path": "specs/paladin/retribution.json"
+    },
+    {
+      "id": "discipline-priest",
+      "className": "Priest",
+      "specName": "Discipline",
+      "role": "Healer",
+      "path": "specs/priest/discipline.json"
+    },
+    {
+      "id": "holy-priest",
+      "className": "Priest",
+      "specName": "Holy",
+      "role": "Healer",
+      "path": "specs/priest/holy.json"
+    },
+    {
+      "id": "shadow-priest",
+      "className": "Priest",
+      "specName": "Shadow",
+      "role": "DPS",
+      "path": "specs/priest/shadow.json"
+    },
+    {
+      "id": "assassination-rogue",
+      "className": "Rogue",
+      "specName": "Assassination",
+      "role": "DPS",
+      "path": "specs/rogue/assassination.json"
+    },
+    {
+      "id": "outlaw-rogue",
+      "className": "Rogue",
+      "specName": "Outlaw",
+      "role": "DPS",
+      "path": "specs/rogue/outlaw.json"
+    },
+    {
+      "id": "subtlety-rogue",
+      "className": "Rogue",
+      "specName": "Subtlety",
+      "role": "DPS",
+      "path": "specs/rogue/subtlety.json"
+    },
+    {
+      "id": "elemental-shaman",
+      "className": "Shaman",
+      "specName": "Elemental",
+      "role": "DPS",
+      "path": "specs/shaman/elemental.json"
+    },
+    {
+      "id": "enhancement-shaman",
+      "className": "Shaman",
+      "specName": "Enhancement",
+      "role": "DPS",
+      "path": "specs/shaman/enhancement.json"
+    },
+    {
+      "id": "restoration-shaman",
+      "className": "Shaman",
+      "specName": "Restoration",
+      "role": "Healer",
+      "path": "specs/shaman/restoration.json"
+    },
+    {
+      "id": "affliction-warlock",
+      "className": "Warlock",
+      "specName": "Affliction",
+      "role": "DPS",
+      "path": "specs/warlock/affliction.json"
+    },
+    {
+      "id": "demonology-warlock",
+      "className": "Warlock",
+      "specName": "Demonology",
+      "role": "DPS",
+      "path": "specs/warlock/demonology.json"
+    },
+    {
+      "id": "destruction-warlock",
+      "className": "Warlock",
+      "specName": "Destruction",
+      "role": "DPS",
+      "path": "specs/warlock/destruction.json"
+    },
+    {
+      "id": "arms-warrior",
+      "className": "Warrior",
+      "specName": "Arms",
+      "role": "DPS",
+      "path": "specs/warrior/arms.json"
+    },
+    {
+      "id": "fury-warrior",
+      "className": "Warrior",
+      "specName": "Fury",
+      "role": "DPS",
+      "path": "specs/warrior/fury.json"
+    },
+    {
+      "id": "protection-warrior",
+      "className": "Warrior",
+      "specName": "Protection",
+      "role": "Tank",
+      "path": "specs/warrior/protection.json"
+    }
+  ]
+}

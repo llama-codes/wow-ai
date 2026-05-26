@@ -1,0 +1,355 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.wow-ai/schema/current-raid-mythic.json",
+  "title": "WoW Current Raid Mythic Spec Database",
+  "type": "object",
+  "required": [
+    "expansion",
+    "patch",
+    "raidName",
+    "difficulty",
+    "generatedAt",
+    "sourceWindow",
+    "sources",
+    "warnings",
+    "specFiles"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "expansion": {
+      "type": "string"
+    },
+    "patch": {
+      "type": "string"
+    },
+    "raidName": {
+      "type": "string"
+    },
+    "difficulty": {
+      "const": "Mythic"
+    },
+    "generatedAt": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "sourceWindow": {
+      "type": "string"
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/source"
+      }
+    },
+    "warnings": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "specFiles": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/specFile"
+      }
+    }
+  },
+  "$defs": {
+    "specFile": {
+      "type": "object",
+      "required": [
+        "id",
+        "className",
+        "specName",
+        "role",
+        "path"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "className": {
+          "type": "string"
+        },
+        "specName": {
+          "type": "string"
+        },
+        "role": {
+          "enum": [
+            "DPS",
+            "Healer",
+            "Tank",
+            "Unknown"
+          ]
+        },
+        "path": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "source": {
+      "type": "object",
+      "required": [
+        "name",
+        "url",
+        "usage"
+      ],
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string"
+        },
+        "usage": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "spec": {
+      "type": "object",
+      "required": [
+        "id",
+        "className",
+        "classSlug",
+        "specName",
+        "specSlug",
+        "role",
+        "baseline",
+        "bosses",
+        "manualNotes"
+      ],
+      "properties": {
+        "$schema": {
+          "type": "string"
+        },
+        "id": {
+          "type": "string"
+        },
+        "className": {
+          "type": "string"
+        },
+        "classSlug": {
+          "type": "string"
+        },
+        "specName": {
+          "type": "string"
+        },
+        "specSlug": {
+          "type": "string"
+        },
+        "role": {
+          "enum": [
+            "DPS",
+            "Healer",
+            "Tank",
+            "Unknown"
+          ]
+        },
+        "baseline": {
+          "$ref": "#/$defs/buildEntry"
+        },
+        "bosses": {
+          "type": "object",
+          "additionalProperties": {
+            "$ref": "#/$defs/buildEntry"
+          }
+        },
+        "manualNotes": {
+          "$ref": "#/$defs/manualNotes"
+        }
+      },
+      "additionalProperties": false
+    },
+    "buildEntry": {
+      "type": "object",
+      "required": [
+        "context",
+        "heroTree",
+        "talentEditUrl",
+        "statPriority",
+        "popularityPercent",
+        "parseCount",
+        "performanceMetric",
+        "topLogUrl",
+        "lastUpdated",
+        "retrievedAt",
+        "sourceUrl",
+        "talents",
+        "strongPoints",
+        "weakPoints",
+        "recommendation"
+      ],
+      "properties": {
+        "context": {
+          "type": "string"
+        },
+        "bossSlug": {
+          "type": "string"
+        },
+        "bossName": {
+          "type": "string"
+        },
+        "heroTree": {
+          "type": "string"
+        },
+        "talentEditUrl": {
+          "type": "string"
+        },
+        "talentExportCode": {
+          "type": "string"
+        },
+        "statPriority": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "popularityPercent": {
+          "type": "number"
+        },
+        "parseCount": {
+          "type": "integer"
+        },
+        "performanceMetric": {
+          "type": "object",
+          "required": [
+            "label",
+            "value"
+          ],
+          "properties": {
+            "label": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "value": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "additionalProperties": false
+        },
+        "topLogUrl": {
+          "type": "string"
+        },
+        "lastUpdated": {
+          "type": "string"
+        },
+        "retrievedAt": {
+          "type": "string"
+        },
+        "sourceUrl": {
+          "type": "string"
+        },
+        "talents": {
+          "$ref": "#/$defs/talents"
+        },
+        "strongPoints": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/note"
+          }
+        },
+        "weakPoints": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/note"
+          }
+        },
+        "recommendation": {
+          "$ref": "#/$defs/note"
+        }
+      },
+      "additionalProperties": false
+    },
+    "talents": {
+      "type": "object",
+      "required": [
+        "class",
+        "hero",
+        "spec"
+      ],
+      "properties": {
+        "class": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "hero": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "spec": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "note": {
+      "type": "object",
+      "required": [
+        "text",
+        "basis",
+        "sourceUrl"
+      ],
+      "properties": {
+        "text": {
+          "type": "string"
+        },
+        "basis": {
+          "type": "string"
+        },
+        "sourceUrl": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "manualNotes": {
+      "type": "object",
+      "required": [
+        "strongPoints",
+        "weakPoints",
+        "recommendationBuilds"
+      ],
+      "properties": {
+        "strongPoints": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/note"
+          }
+        },
+        "weakPoints": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/note"
+          }
+        },
+        "recommendationBuilds": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/note"
+          }
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}
