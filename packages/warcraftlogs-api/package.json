@@ -1,0 +1,48 @@
+{
+  "name": "@wow-ai/warcraftlogs",
+  "version": "0.1.0",
+  "description": "TypeScript SDK and local MCP server for the public Warcraft Logs v2 GraphQL API.",
+  "type": "module",
+  "bin": {
+    "warcraftlogs-mcp": "./dist/mcp/stdio.js"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./mcp": {
+      "types": "./dist/mcp/server.d.ts",
+      "import": "./dist/mcp/server.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest run --environment node",
+    "smoke:live": "npm run build && node dist/scripts/live-smoke.js"
+  },
+  "keywords": [
+    "warcraftlogs",
+    "warcraft-logs",
+    "mcp",
+    "graphql",
+    "world-of-warcraft"
+  ],
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.13.0",
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.0",
+    "typescript": "^5.8.0",
+    "vitest": "^3.2.0"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
