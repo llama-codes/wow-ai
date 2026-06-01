@@ -376,16 +376,7 @@
           "phaseOffset": 318
         }
       ],
-      "notes": [
-        {
-          "actor": "Nessalove",
-          "startTime": 0,
-          "noteText": "Mass Dispel boss bubbles",
-          "icon": "",
-          "phaseNumber": 0,
-          "phaseOffset": 0
-        }
-      ]
+      "notes": []
     },
     {
       "name": "Deviiarrc",
@@ -1016,7 +1007,7 @@
           "actor": "Deviiarrc",
           "startTime": 18,
           "noteText": "Do not cast Dream Breath; save for Stasis combo",
-          "icon": "\ud83d\udcad",
+          "icon": "💭",
           "phaseNumber": 0,
           "phaseOffset": 18
         },
@@ -1024,7 +1015,7 @@
           "actor": "Deviiarrc",
           "startTime": 108,
           "noteText": "Do not cast Dream Breath; save for Stasis combo",
-          "icon": "\ud83d\udcad",
+          "icon": "💭",
           "phaseNumber": 0,
           "phaseOffset": 108
         },
@@ -1032,7 +1023,7 @@
           "actor": "Deviiarrc",
           "startTime": 198,
           "noteText": "Do not cast Dream Breath; save for Stasis combo",
-          "icon": "\ud83d\udcad",
+          "icon": "💭",
           "phaseNumber": 0,
           "phaseOffset": 198
         },
@@ -1040,7 +1031,7 @@
           "actor": "Deviiarrc",
           "startTime": 288,
           "noteText": "Do not cast Dream Breath; save for Stasis combo",
-          "icon": "\ud83d\udcad",
+          "icon": "💭",
           "phaseNumber": 0,
           "phaseOffset": 288
         },
@@ -1048,7 +1039,7 @@
           "actor": "Deviiarrc",
           "startTime": 378,
           "noteText": "Do not cast Dream Breath; save for Stasis combo",
-          "icon": "\ud83d\udcad",
+          "icon": "💭",
           "phaseNumber": 0,
           "phaseOffset": 378
         }
@@ -1907,7 +1898,7 @@
           "actor": "Everyone",
           "startTime": 18,
           "noteText": "Dispels",
-          "icon": "\ud83d\udcad",
+          "icon": "💭",
           "phaseNumber": 0,
           "phaseOffset": 18
         },
@@ -1915,7 +1906,7 @@
           "actor": "Everyone",
           "startTime": 72,
           "noteText": "Dispels",
-          "icon": "\ud83d\udcad",
+          "icon": "💭",
           "phaseNumber": 0,
           "phaseOffset": 72
         },
@@ -1923,7 +1914,7 @@
           "actor": "Everyone",
           "startTime": 96,
           "noteText": "Dispels",
-          "icon": "\ud83d\udcad",
+          "icon": "💭",
           "phaseNumber": 0,
           "phaseOffset": 96
         },
@@ -1931,7 +1922,7 @@
           "actor": "Everyone",
           "startTime": 108,
           "noteText": "Dispels",
-          "icon": "\ud83d\udcad",
+          "icon": "💭",
           "phaseNumber": 0,
           "phaseOffset": 108
         },
@@ -1939,7 +1930,7 @@
           "actor": "Everyone",
           "startTime": 126,
           "noteText": "Dispels",
-          "icon": "\ud83d\udcad",
+          "icon": "💭",
           "phaseNumber": 0,
           "phaseOffset": 126
         },
@@ -1947,7 +1938,7 @@
           "actor": "Everyone",
           "startTime": 140,
           "noteText": "Dispels",
-          "icon": "\ud83d\udcad",
+          "icon": "💭",
           "phaseNumber": 0,
           "phaseOffset": 140
         },
@@ -1955,7 +1946,7 @@
           "actor": "Everyone",
           "startTime": 146,
           "noteText": "Dispels",
-          "icon": "\ud83d\udcad",
+          "icon": "💭",
           "phaseNumber": 0,
           "phaseOffset": 146
         },
@@ -1963,7 +1954,7 @@
           "actor": "Everyone",
           "startTime": 162,
           "noteText": "Dispels",
-          "icon": "\ud83d\udcad",
+          "icon": "💭",
           "phaseNumber": 0,
           "phaseOffset": 162
         },
@@ -1971,7 +1962,7 @@
           "actor": "Everyone",
           "startTime": 180,
           "noteText": "Dispels",
-          "icon": "\ud83d\udcad",
+          "icon": "💭",
           "phaseNumber": 0,
           "phaseOffset": 180
         },
@@ -1979,7 +1970,7 @@
           "actor": "Everyone",
           "startTime": 234,
           "noteText": "Dispels",
-          "icon": "\ud83d\udcad",
+          "icon": "💭",
           "phaseNumber": 0,
           "phaseOffset": 234
         },
@@ -1987,7 +1978,7 @@
           "actor": "Everyone",
           "startTime": 255,
           "noteText": "Dispels",
-          "icon": "\ud83d\udcad",
+          "icon": "💭",
           "phaseNumber": 0,
           "phaseOffset": 255
         },
@@ -1995,7 +1986,7 @@
           "actor": "Everyone",
           "startTime": 270,
           "noteText": "Dispels",
-          "icon": "\ud83d\udcad",
+          "icon": "💭",
           "phaseNumber": 0,
           "phaseOffset": 270
         },
@@ -2003,7 +1994,7 @@
           "actor": "Everyone",
           "startTime": 288,
           "noteText": "Dispels",
-          "icon": "\ud83d\udcad",
+          "icon": "💭",
           "phaseNumber": 0,
           "phaseOffset": 288
         },
@@ -2011,7 +2002,7 @@
           "actor": "Everyone",
           "startTime": 299,
           "noteText": "Dispels",
-          "icon": "\ud83d\udcad",
+          "icon": "💭",
           "phaseNumber": 0,
           "phaseOffset": 299
         },
@@ -2019,7 +2010,7 @@
           "actor": "Everyone",
           "startTime": 306,
           "noteText": "Dispels",
-          "icon": "\ud83d\udcad",
+          "icon": "💭",
           "phaseNumber": 0,
           "phaseOffset": 306
         },
@@ -2027,7 +2018,7 @@
           "actor": "Everyone",
           "startTime": 326,
           "noteText": "Dispels",
-          "icon": "\ud83d\udcad",
+          "icon": "💭",
           "phaseNumber": 0,
           "phaseOffset": 326
         },
@@ -2035,7 +2026,7 @@
           "actor": "Everyone",
           "startTime": 342,
           "noteText": "Dispels",
-          "icon": "\ud83d\udcad",
+          "icon": "💭",
           "phaseNumber": 0,
           "phaseOffset": 342
         },
@@ -2043,7 +2034,7 @@
           "actor": "Everyone",
           "startTime": 396,
           "noteText": "Dispels",
-          "icon": "\ud83d\udcad",
+          "icon": "💭",
           "phaseNumber": 0,
           "phaseOffset": 396
         },
@@ -2051,11 +2042,654 @@
           "actor": "Everyone",
           "startTime": 414,
           "noteText": "Dispels",
-          "icon": "\ud83d\udcad",
+          "icon": "💭",
           "phaseNumber": 0,
           "phaseOffset": 414
         }
       ]
+    },
+    {
+      "name": "Flakov",
+      "realm": "Azjol-Nerub",
+      "playerClass": "Monk",
+      "playerSpec": "Brewmaster",
+      "spells": [],
+      "notes": []
+    },
+    {
+      "name": "Flaktop",
+      "realm": "Azjol-Nerub",
+      "playerClass": "Death Knight",
+      "playerSpec": "Blood",
+      "spells": [],
+      "notes": []
+    },
+    {
+      "name": "Holy",
+      "realm": "Azjol-Nerub",
+      "playerClass": "Paladin",
+      "playerSpec": "Protection",
+      "spells": [],
+      "notes": []
+    },
+    {
+      "name": "Badankhadonk",
+      "realm": "Azjol-Nerub",
+      "playerClass": "Shaman",
+      "playerSpec": "Restoration",
+      "spells": [],
+      "notes": []
+    },
+    {
+      "name": "Deviarc",
+      "realm": "Azjol-Nerub",
+      "playerClass": "Druid",
+      "playerSpec": "Restoration",
+      "spells": [],
+      "notes": []
+    },
+    {
+      "name": "Devbusswife",
+      "realm": "Azjol-Nerub",
+      "playerClass": "Monk",
+      "playerSpec": "Mistweaver",
+      "spells": [],
+      "notes": []
+    },
+    {
+      "name": "Chillfang",
+      "realm": "Azjol-Nerub",
+      "playerClass": "Death Knight",
+      "playerSpec": "Unholy",
+      "spells": [
+        {
+          "spell": {
+            "spellId": 51052,
+            "spellName": "Anti-Magic Zone",
+            "wowheadLink": "https://www.wowhead.com/beta/spell=51052/anti-magic-zone",
+            "iconLink": "/viserio-cooldowns/images/deathknight/51052.jpg",
+            "note": {},
+            "checks": {},
+            "cooldown": 180,
+            "duration": 8,
+            "playerSpellType": "Raid DR",
+            "guid": "3c425348-2499-44db-a468-18d0e43d0430",
+            "talentModifiers": [
+              {
+                "spell": {
+                  "spellId": 374383,
+                  "spellName": "Assimilation",
+                  "wowheadLink": "https://www.wowhead.com/spell=374383",
+                  "iconLink": ""
+                },
+                "modifiedValues": {
+                  "cooldown": 180,
+                  "duration": 8
+                }
+              }
+            ]
+          },
+          "startTime": 82,
+          "actorId": "chillfang-azjolnerub",
+          "CustomCooldownSingleCast": null,
+          "customCooldownAllCasts": null,
+          "customDurationSingleCast": null,
+          "customDurationAllCasts": null,
+          "customChargesAllCasts": null,
+          "charges": null,
+          "phaseNumber": 0,
+          "phaseOffset": 82
+        },
+        {
+          "spell": {
+            "spellId": 51052,
+            "spellName": "Anti-Magic Zone",
+            "wowheadLink": "https://www.wowhead.com/beta/spell=51052/anti-magic-zone",
+            "iconLink": "/viserio-cooldowns/images/deathknight/51052.jpg",
+            "note": {},
+            "checks": {},
+            "cooldown": 180,
+            "duration": 8,
+            "playerSpellType": "Raid DR",
+            "guid": "3c425348-2499-44db-a468-18d0e43d0430",
+            "talentModifiers": [
+              {
+                "spell": {
+                  "spellId": 374383,
+                  "spellName": "Assimilation",
+                  "wowheadLink": "https://www.wowhead.com/spell=374383",
+                  "iconLink": ""
+                },
+                "modifiedValues": {
+                  "cooldown": 180,
+                  "duration": 8
+                }
+              }
+            ]
+          },
+          "startTime": 297,
+          "actorId": "chillfang-azjolnerub",
+          "CustomCooldownSingleCast": null,
+          "customCooldownAllCasts": null,
+          "customDurationSingleCast": null,
+          "customDurationAllCasts": null,
+          "customChargesAllCasts": null,
+          "charges": null,
+          "phaseNumber": 0,
+          "phaseOffset": 297
+        }
+      ],
+      "notes": []
+    },
+    {
+      "name": "Kurrox",
+      "realm": "Azjol-Nerub",
+      "playerClass": "Monk",
+      "playerSpec": "Windwalker",
+      "spells": [],
+      "notes": []
+    },
+    {
+      "name": "Bloodynuts",
+      "realm": "Azjol-Nerub",
+      "playerClass": "Rogue",
+      "playerSpec": "Subtlety",
+      "spells": [],
+      "notes": []
+    },
+    {
+      "name": "Pyroblast",
+      "realm": "Azjol-Nerub",
+      "playerClass": "Mage",
+      "playerSpec": "Frost",
+      "spells": [],
+      "notes": []
+    },
+    {
+      "name": "Nerfhammer",
+      "realm": "Azjol-Nerub",
+      "playerClass": "Paladin",
+      "playerSpec": "Retribution",
+      "spells": [],
+      "notes": []
+    },
+    {
+      "name": "Orrion",
+      "realm": "Azjol-Nerub",
+      "playerClass": "Hunter",
+      "playerSpec": "Beast Mastery",
+      "spells": [],
+      "notes": []
+    },
+    {
+      "name": "Mierin",
+      "realm": "Azjol-Nerub",
+      "playerClass": "Druid",
+      "playerSpec": "Feral",
+      "spells": [],
+      "notes": []
+    },
+    {
+      "name": "Frey",
+      "realm": "Azjol-Nerub",
+      "playerClass": "Death Knight",
+      "playerSpec": "Unholy",
+      "spells": [
+        {
+          "spell": {
+            "spellId": 51052,
+            "spellName": "Anti-Magic Zone",
+            "wowheadLink": "https://www.wowhead.com/beta/spell=51052/anti-magic-zone",
+            "iconLink": "/viserio-cooldowns/images/deathknight/51052.jpg",
+            "note": {},
+            "checks": {},
+            "cooldown": 180,
+            "duration": 8,
+            "playerSpellType": "Raid DR",
+            "guid": "3c425348-2499-44db-a468-18d0e43d0430",
+            "talentModifiers": [
+              {
+                "spell": {
+                  "spellId": 374383,
+                  "spellName": "Assimilation",
+                  "wowheadLink": "https://www.wowhead.com/spell=374383",
+                  "iconLink": ""
+                },
+                "modifiedValues": {
+                  "cooldown": 180,
+                  "duration": 8
+                }
+              }
+            ]
+          },
+          "startTime": 138,
+          "actorId": "frey-azjolnerub",
+          "CustomCooldownSingleCast": null,
+          "customCooldownAllCasts": null,
+          "customDurationSingleCast": null,
+          "customDurationAllCasts": null,
+          "customChargesAllCasts": null,
+          "charges": null,
+          "phaseNumber": 0,
+          "phaseOffset": 138
+        },
+        {
+          "spell": {
+            "spellId": 51052,
+            "spellName": "Anti-Magic Zone",
+            "wowheadLink": "https://www.wowhead.com/beta/spell=51052/anti-magic-zone",
+            "iconLink": "/viserio-cooldowns/images/deathknight/51052.jpg",
+            "note": {},
+            "checks": {},
+            "cooldown": 180,
+            "duration": 8,
+            "playerSpellType": "Raid DR",
+            "guid": "3c425348-2499-44db-a468-18d0e43d0430",
+            "talentModifiers": [
+              {
+                "spell": {
+                  "spellId": 374383,
+                  "spellName": "Assimilation",
+                  "wowheadLink": "https://www.wowhead.com/spell=374383",
+                  "iconLink": ""
+                },
+                "modifiedValues": {
+                  "cooldown": 180,
+                  "duration": 8
+                }
+              }
+            ]
+          },
+          "startTime": 400,
+          "actorId": "frey-azjolnerub",
+          "CustomCooldownSingleCast": null,
+          "customCooldownAllCasts": null,
+          "customDurationSingleCast": null,
+          "customDurationAllCasts": null,
+          "customChargesAllCasts": null,
+          "charges": null,
+          "phaseNumber": 0,
+          "phaseOffset": 400
+        }
+      ],
+      "notes": []
+    },
+    {
+      "name": "Regidor",
+      "realm": "Azjol-Nerub",
+      "playerClass": "Paladin",
+      "playerSpec": "Holy",
+      "spells": [],
+      "notes": []
+    },
+    {
+      "name": "Redg",
+      "realm": "Azjol-Nerub",
+      "playerClass": "Priest",
+      "playerSpec": "Shadow",
+      "spells": [],
+      "notes": []
+    },
+    {
+      "name": "Xdynasty",
+      "realm": "Azjol-Nerub",
+      "playerClass": "Rogue",
+      "playerSpec": "Assassination",
+      "spells": [],
+      "notes": []
+    },
+    {
+      "name": "Santaclaaws",
+      "realm": "Azjol-Nerub",
+      "playerClass": "Demon Hunter",
+      "playerSpec": "Devourer",
+      "spells": [],
+      "notes": []
+    },
+    {
+      "name": "Santapal",
+      "realm": "Azjol-Nerub",
+      "playerClass": "Paladin",
+      "playerSpec": "Holy",
+      "spells": [],
+      "notes": []
+    },
+    {
+      "name": "Sidewind",
+      "realm": "Azjol-Nerub",
+      "playerClass": "Hunter",
+      "playerSpec": "Beast Mastery",
+      "spells": [],
+      "notes": []
+    },
+    {
+      "name": "Kinigit",
+      "realm": "Azjol-Nerub",
+      "playerClass": "Warrior",
+      "playerSpec": "Arms",
+      "spells": [],
+      "notes": []
+    },
+    {
+      "name": "Fewz",
+      "realm": "Azjol-Nerub",
+      "playerClass": "Mage",
+      "playerSpec": "Frost",
+      "spells": [],
+      "notes": []
+    },
+    {
+      "name": "Benilok",
+      "realm": "Azjol-Nerub",
+      "playerClass": "Warlock",
+      "playerSpec": "Destruction",
+      "spells": [],
+      "notes": []
+    },
+    {
+      "name": "Bendeekay",
+      "realm": "Azjol-Nerub",
+      "playerClass": "Death Knight",
+      "playerSpec": "Blood",
+      "spells": [],
+      "notes": []
+    },
+    {
+      "name": "Calderonus",
+      "realm": "Azjol-Nerub",
+      "playerClass": "Hunter",
+      "playerSpec": "Beast Mastery",
+      "spells": [],
+      "notes": []
+    },
+    {
+      "name": "Rugsalon",
+      "realm": "Azjol-Nerub",
+      "playerClass": "Mage",
+      "playerSpec": "Frost",
+      "spells": [],
+      "notes": []
+    },
+    {
+      "name": "Armorscales",
+      "realm": "Azjol-Nerub",
+      "playerClass": "Warlock",
+      "playerSpec": "Demonology",
+      "spells": [],
+      "notes": []
+    },
+    {
+      "name": "Dotsy",
+      "realm": "Azjol-Nerub",
+      "playerClass": "Warlock",
+      "playerSpec": "Affliction",
+      "spells": [],
+      "notes": []
+    },
+    {
+      "name": "Hotsy",
+      "realm": "Azjol-Nerub",
+      "playerClass": "Druid",
+      "playerSpec": "Restoration",
+      "spells": [],
+      "notes": []
+    },
+    {
+      "name": "Greenplate",
+      "realm": "Stormrage",
+      "playerClass": "Evoker",
+      "playerSpec": "Augmentation",
+      "spells": [],
+      "notes": []
+    },
+    {
+      "name": "Megaera",
+      "realm": "Khaz Modan",
+      "playerClass": "Demon Hunter",
+      "playerSpec": "Devourer",
+      "spells": [],
+      "notes": []
+    },
+    {
+      "name": "Astrine",
+      "realm": "Azjol-Nerub",
+      "playerClass": "Mage",
+      "playerSpec": "Frost",
+      "spells": [],
+      "notes": []
+    },
+    {
+      "name": "MÍerÍn",
+      "realm": "Azjol-Nerub",
+      "playerClass": "Hunter",
+      "playerSpec": "Survival",
+      "spells": [],
+      "notes": []
+    },
+    {
+      "name": "Galadrìel",
+      "realm": "Blackrock",
+      "playerClass": "Paladin",
+      "playerSpec": "Retribution",
+      "spells": [],
+      "notes": []
+    },
+    {
+      "name": "Brovar",
+      "realm": "Azjol-Nerub",
+      "playerClass": "Paladin",
+      "playerSpec": "Retribution",
+      "spells": [],
+      "notes": []
+    },
+    {
+      "name": "Falcor",
+      "realm": "Azjol-Nerub",
+      "playerClass": "Evoker",
+      "playerSpec": "Devastation",
+      "spells": [],
+      "notes": []
+    },
+    {
+      "name": "Flockling",
+      "realm": "Azjol-Nerub",
+      "playerClass": "Priest",
+      "playerSpec": "Shadow",
+      "spells": [],
+      "notes": []
+    },
+    {
+      "name": "Lhehitman",
+      "realm": "Azjol-Nerub",
+      "playerClass": "Mage",
+      "playerSpec": "Frost",
+      "spells": [],
+      "notes": []
+    },
+    {
+      "name": "Lizwiz",
+      "realm": "Azjol-Nerub",
+      "playerClass": "Evoker",
+      "playerSpec": "Preservation",
+      "spells": [],
+      "notes": []
+    },
+    {
+      "name": "Graywelcome",
+      "realm": "Azjol-Nerub",
+      "playerClass": "Demon Hunter",
+      "playerSpec": "Havoc",
+      "spells": [],
+      "notes": []
+    },
+    {
+      "name": "Whitecrow",
+      "realm": "Stormrage",
+      "playerClass": "Warrior",
+      "playerSpec": "Protection",
+      "spells": [],
+      "notes": []
+    },
+    {
+      "name": "Sugondese",
+      "realm": "Shandris",
+      "playerClass": "Druid",
+      "playerSpec": "Guardian",
+      "spells": [],
+      "notes": []
+    },
+    {
+      "name": "Alluria",
+      "realm": "Azjol-Nerub",
+      "playerClass": "Death Knight",
+      "playerSpec": "Blood",
+      "spells": [],
+      "notes": []
+    },
+    {
+      "name": "Magnie",
+      "realm": "Azjol-Nerub",
+      "playerClass": "Warrior",
+      "playerSpec": "Protection",
+      "spells": [],
+      "notes": []
+    },
+    {
+      "name": "Firnen",
+      "realm": "Azjol-Nerub",
+      "playerClass": "Evoker",
+      "playerSpec": "Devastation",
+      "spells": [],
+      "notes": []
+    },
+    {
+      "name": "Maluria",
+      "realm": "Azjol-Nerub",
+      "playerClass": "Demon Hunter",
+      "playerSpec": "Vengeance",
+      "spells": [],
+      "notes": []
+    },
+    {
+      "name": "Freydra",
+      "realm": "Khaz Modan",
+      "playerClass": "Paladin",
+      "playerSpec": "Retribution",
+      "spells": [],
+      "notes": []
+    },
+    {
+      "name": "Kriegur",
+      "realm": "Azjol-Nerub",
+      "playerClass": "Hunter",
+      "playerSpec": "Beast Mastery",
+      "spells": [],
+      "notes": []
+    },
+    {
+      "name": "Drakussy",
+      "realm": "Azjol-Nerub",
+      "playerClass": "Evoker",
+      "playerSpec": "Preservation",
+      "spells": [],
+      "notes": []
+    },
+    {
+      "name": "Kahboom",
+      "realm": "Azjol-Nerub",
+      "playerClass": "Mage",
+      "playerSpec": "Arcane",
+      "spells": [],
+      "notes": []
+    },
+    {
+      "name": "Vidarus",
+      "realm": "Azjol-Nerub",
+      "playerClass": "Demon Hunter",
+      "playerSpec": "Havoc",
+      "spells": [
+        {
+          "spell": {
+            "spellId": 196718,
+            "spellName": "Darkness",
+            "wowheadLink": "https://www.wowhead.com/spell=196718/darkness",
+            "iconLink": "/viserio-cooldowns/images/demonhunter/196718.jpg",
+            "note": {},
+            "checks": {},
+            "cooldown": 180,
+            "duration": 8,
+            "playerSpellType": "Raid DR",
+            "guid": "cee58968-b9c1-47d4-a584-71e425a683a1"
+          },
+          "startTime": 138,
+          "actorId": "vidarus-azjolnerub",
+          "CustomCooldownSingleCast": null,
+          "customCooldownAllCasts": null,
+          "customDurationSingleCast": null,
+          "customDurationAllCasts": null,
+          "customChargesAllCasts": null,
+          "charges": null,
+          "phaseNumber": 0,
+          "phaseOffset": 138
+        },
+        {
+          "spell": {
+            "spellId": 196718,
+            "spellName": "Darkness",
+            "wowheadLink": "https://www.wowhead.com/spell=196718/darkness",
+            "iconLink": "/viserio-cooldowns/images/demonhunter/196718.jpg",
+            "note": {},
+            "checks": {},
+            "cooldown": 180,
+            "duration": 8,
+            "playerSpellType": "Raid DR",
+            "guid": "cee58968-b9c1-47d4-a584-71e425a683a1"
+          },
+          "startTime": 400,
+          "actorId": "vidarus-azjolnerub",
+          "CustomCooldownSingleCast": null,
+          "customCooldownAllCasts": null,
+          "customDurationSingleCast": null,
+          "customDurationAllCasts": null,
+          "customChargesAllCasts": null,
+          "charges": null,
+          "phaseNumber": 0,
+          "phaseOffset": 400
+        }
+      ],
+      "notes": []
+    },
+    {
+      "name": "Forgeheart",
+      "realm": "Azjol-Nerub",
+      "playerClass": "Warrior",
+      "playerSpec": "Protection",
+      "spells": [],
+      "notes": []
+    },
+    {
+      "name": "Sacredgrace",
+      "realm": "Azjol-Nerub",
+      "playerClass": "Paladin",
+      "playerSpec": "Holy",
+      "spells": [],
+      "notes": []
+    },
+    {
+      "name": "Benney",
+      "realm": "Azjol-Nerub",
+      "playerClass": "Warrior",
+      "playerSpec": "Protection",
+      "spells": [],
+      "notes": []
+    },
+    {
+      "name": "Wendonai",
+      "realm": "Azjol-Nerub",
+      "playerClass": "Death Knight",
+      "playerSpec": "Unholy",
+      "spells": [],
+      "notes": []
     }
   ],
   "phases": [
