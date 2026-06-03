@@ -74,9 +74,13 @@ const client = createWarcraftLogsClient({
 
 ## MCP Quick Start
 
-The MCP server runs locally over stdio. Your MCP host starts this package with
-Node, loads Warcraft Logs credentials from `.env.local`, and then receives the
-`wcl_*` tools.
+The MCP server runs locally over stdio. The MCP host starts the local Node
+server, the server reads Warcraft Logs credentials, and then the host receives
+the `wcl_*` tools.
+
+For this repo, prefer the tracked PowerShell launcher
+`scripts/start-mcp.ps1`. It loads `packages/warcraftlogs-api/.env.local` into
+the MCP process without putting secrets in `%USERPROFILE%\.codex\config.toml`.
 
 1. Create Warcraft Logs API credentials at <https://www.warcraftlogs.com/api/clients>.
 
@@ -87,41 +91,65 @@ WARCRAFT_LOGS_CLIENT_ID=your-client-id
 WARCRAFT_LOGS_CLIENT_SECRET=your-client-secret
 ```
 
-3. Build the package:
+The file should live here:
+
+```text
+<repo-root>\packages\warcraftlogs-api\.env.local
+```
+
+3. Build and verify the package:
 
 ```powershell
-cd C:\Users\celsi\Documents\GitHub\llama-codes\wow-ai\packages\warcraftlogs-api
+cd <repo-root>\packages\warcraftlogs-api
 npm install
 npm run build
+npm test
+npm run smoke:live:local
 ```
 
-4. Configure your MCP client to launch the stdio server with Node's `--env-file`
-flag:
+4. Check that the MCP launcher sees the local env file without printing secret
+values:
 
-```json
-{
-  "mcpServers": {
-    "warcraftlogs": {
-      "command": "node",
-      "args": [
-        "--env-file=C:/Users/celsi/Documents/GitHub/llama-codes/wow-ai/packages/warcraftlogs-api/.env.local",
-        "C:/Users/celsi/Documents/GitHub/llama-codes/wow-ai/packages/warcraftlogs-api/dist/mcp/stdio.js"
-      ]
-    }
-  }
-}
+```powershell
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\scripts\start-mcp.ps1 -Check
 ```
 
-5. Restart the MCP host/client so it reloads tools.
+Expected output:
 
-6. Test the connection with the rate-limit tool first. If this works, the
-credentials, local build, and stdio transport are all good:
+```text
+WARCRAFT_LOGS_CLIENT_ID=set
+WARCRAFT_LOGS_CLIENT_SECRET=set
+```
+
+5. Add the MCP server to Codex Desktop config:
+
+```text
+%USERPROFILE%\.codex\config.toml
+```
+
+Use TOML, not JSON:
+
+```toml
+[mcp_servers.warcraftlogs]
+command = "powershell.exe"
+args = ["-NoProfile", "-ExecutionPolicy", "Bypass", "-File", "<repo-root>/packages/warcraftlogs-api/scripts/start-mcp.ps1"]
+startup_timeout_sec = 120
+```
+
+Do not add a `[mcp_servers.warcraftlogs.env]` block for these secrets. The
+launcher reads `.env.local` and forwards those values only to the MCP child
+process.
+
+6. Fully restart Codex Desktop. A normal thread reload may not be enough because
+MCP servers are discovered when Codex starts.
+
+7. Verify inside Codex by asking:
 
 ```text
 Use Warcraft Logs to check the API rate limit.
 ```
 
-The MCP server exposes:
+If the server is loaded, Codex should expose these tools:
 
 - `wcl_rate_limit`
 - `wcl_report_summary`
@@ -144,7 +172,39 @@ Use Warcraft Logs to get healing events for fight 1 in report REPORT_CODE.
 Under the hood, the MCP calls the local SDK package, which handles OAuth,
 token caching, GraphQL requests, and JSON response formatting.
 
-For stdio MCP servers, logs are written to stderr so stdout remains reserved for JSON-RPC messages.
+For stdio MCP servers, logs are written to stderr so stdout remains reserved for
+JSON-RPC messages.
+
+### Generic MCP Client Config
+
+For MCP clients that use JSON config and do not need the PowerShell launcher,
+you can launch Node directly with `--env-file`:
+
+```json
+{
+  "mcpServers": {
+    "warcraftlogs": {
+      "command": "node",
+      "args": [
+        "--env-file=<repo-root>/packages/warcraftlogs-api/.env.local",
+        "<repo-root>/packages/warcraftlogs-api/dist/mcp/stdio.js"
+      ]
+    }
+  }
+}
+```
+
+### Troubleshooting
+
+- `wcl_*` tools do not appear: restart Codex Desktop after editing
+  `config.toml`.
+- `Missing env file`: create `.env.local` in `packages/warcraftlogs-api`, not
+  the repo root.
+- `WARCRAFT_LOGS_CLIENT_ID=missing`: check the variable name in `.env.local`.
+- `Missing built MCP server`: run `npm run build`.
+- OAuth or GraphQL auth failures: run `npm run smoke:live:local` from
+  `packages/warcraftlogs-api` to validate the credentials outside MCP.
+- Never commit `.env.local`; it is intentionally ignored by `.gitignore`.
 
 ## References
 
