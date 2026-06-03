@@ -65,15 +65,23 @@ const client = createWarcraftLogsClient({
 });
 ```
 
-## MCP Usage
+## MCP Quick Start
 
-Build the package first:
+The MCP server runs locally over stdio. Your MCP host starts this package with
+Node, passes Warcraft Logs credentials through environment variables, and then
+receives the `wcl_*` tools.
+
+1. Create Warcraft Logs API credentials at <https://www.warcraftlogs.com/api/clients>.
+
+2. Build the package:
 
 ```powershell
+cd C:\Users\celsi\Documents\GitHub\llama-codes\wow-ai\packages\warcraftlogs-api
+npm install
 npm run build
 ```
 
-Then configure an MCP client to launch the stdio server with Node:
+3. Configure your MCP client to launch the stdio server:
 
 ```json
 {
@@ -92,7 +100,16 @@ Then configure an MCP client to launch the stdio server with Node:
 }
 ```
 
-The server exposes:
+4. Restart the MCP host/client so it reloads tools.
+
+5. Test the connection with the rate-limit tool first. If this works, the
+credentials, local build, and stdio transport are all good:
+
+```text
+Use Warcraft Logs to check the API rate limit.
+```
+
+The MCP server exposes:
 
 - `wcl_rate_limit`
 - `wcl_report_summary`
@@ -101,6 +118,19 @@ The server exposes:
 - `wcl_report_events`
 - `wcl_report_table`
 - `wcl_report_rankings`
+
+Example prompts once connected:
+
+```text
+Use Warcraft Logs to get the fights for report REPORT_CODE.
+```
+
+```text
+Use Warcraft Logs to get healing events for fight 1 in report REPORT_CODE.
+```
+
+Under the hood, the MCP calls the local SDK package, which handles OAuth,
+token caching, GraphQL requests, and JSON response formatting.
 
 For stdio MCP servers, logs are written to stderr so stdout remains reserved for JSON-RPC messages.
 
