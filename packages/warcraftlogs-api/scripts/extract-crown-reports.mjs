@@ -14,7 +14,13 @@ const reports = [
   { index: 3, code: "HmaTLwKV7Aqx81CF", fightID: 43 },
   { index: 4, code: "tJC1QWjGvLfwA7mc", fightID: 23 },
   { index: 5, code: "KLR8ta3myrAgvkDX", fightID: 55 },
+  { index: 6, code: "cNrQwb2gMnk6zKmq", fightID: 42 },
 ];
+
+const onlyIndexes = parseOnlyIndexes(process.argv.slice(2));
+const selectedReports = onlyIndexes
+  ? reports.filter((report) => onlyIndexes.has(report.index))
+  : reports;
 
 const playerClasses = new Set([
   "DeathKnight",
@@ -111,13 +117,26 @@ await loadEnvLocal(path.join(packageRoot, ".env.local"));
 
 const client = createWarcraftLogsClientFromEnv();
 
-for (const report of reports) {
+for (const report of selectedReports) {
   console.error(`Extracting ${report.code} fight ${report.fightID}...`);
   const analysis = await extractReport(report);
   const markdown = renderMarkdown(analysis);
   const outPath = path.join(outputDir, `similar-comp-${String(report.index).padStart(2, "0")}-${report.code}-fight-${report.fightID}.md`);
   await fs.writeFile(outPath, markdown, "utf8");
   console.error(`Wrote ${path.relative(repoRoot, outPath)}`);
+}
+
+function parseOnlyIndexes(args) {
+  const raw = args.find((arg) => arg.startsWith("--only="))?.slice("--only=".length);
+  if (!raw) {
+    return null;
+  }
+  return new Set(
+    raw
+      .split(",")
+      .map((value) => Number.parseInt(value.trim(), 10))
+      .filter(Number.isInteger),
+  );
 }
 
 async function extractReport(reportRef) {
