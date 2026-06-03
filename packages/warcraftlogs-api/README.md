@@ -11,14 +11,19 @@ Private reports and user OAuth/PKCE are intentionally out of scope for v1.
 
 ## Setup
 
-Create a Warcraft Logs API client at <https://www.warcraftlogs.com/api/clients>, then set credentials in the environment.
+Create a Warcraft Logs API client at <https://www.warcraftlogs.com/api/clients>.
 
-PowerShell:
+For this local MCP setup, use a repo-local env file instead of typing secrets
+into the CLI. Create `packages/warcraftlogs-api/.env.local` with your
+credentials:
 
-```powershell
-$env:WARCRAFT_LOGS_CLIENT_ID="your-client-id"
-$env:WARCRAFT_LOGS_CLIENT_SECRET="your-client-secret"
+```dotenv
+WARCRAFT_LOGS_CLIENT_ID=your-client-id
+WARCRAFT_LOGS_CLIENT_SECRET=your-client-secret
 ```
+
+`.env.local` is ignored by Git. The tracked `.env.local.example` file shows the
+expected keys.
 
 Install and verify locally:
 
@@ -31,10 +36,12 @@ npm test
 Optional live smoke check:
 
 ```powershell
-npm run smoke:live
+npm run smoke:live:local
 ```
 
-If credentials are missing, the live smoke script exits successfully after printing a skip message.
+If `.env.local` is missing, Node exits before the smoke script runs. If the file
+exists but credentials are blank, the live smoke script exits successfully after
+printing a skip message.
 
 ## SDK Usage
 
@@ -68,12 +75,19 @@ const client = createWarcraftLogsClient({
 ## MCP Quick Start
 
 The MCP server runs locally over stdio. Your MCP host starts this package with
-Node, passes Warcraft Logs credentials through environment variables, and then
-receives the `wcl_*` tools.
+Node, loads Warcraft Logs credentials from `.env.local`, and then receives the
+`wcl_*` tools.
 
 1. Create Warcraft Logs API credentials at <https://www.warcraftlogs.com/api/clients>.
 
-2. Build the package:
+2. Put credentials in the ignored local env file:
+
+```dotenv
+WARCRAFT_LOGS_CLIENT_ID=your-client-id
+WARCRAFT_LOGS_CLIENT_SECRET=your-client-secret
+```
+
+3. Build the package:
 
 ```powershell
 cd C:\Users\celsi\Documents\GitHub\llama-codes\wow-ai\packages\warcraftlogs-api
@@ -81,7 +95,8 @@ npm install
 npm run build
 ```
 
-3. Configure your MCP client to launch the stdio server:
+4. Configure your MCP client to launch the stdio server with Node's `--env-file`
+flag:
 
 ```json
 {
@@ -89,20 +104,17 @@ npm run build
     "warcraftlogs": {
       "command": "node",
       "args": [
+        "--env-file=C:/Users/celsi/Documents/GitHub/llama-codes/wow-ai/packages/warcraftlogs-api/.env.local",
         "C:/Users/celsi/Documents/GitHub/llama-codes/wow-ai/packages/warcraftlogs-api/dist/mcp/stdio.js"
-      ],
-      "env": {
-        "WARCRAFT_LOGS_CLIENT_ID": "your-client-id",
-        "WARCRAFT_LOGS_CLIENT_SECRET": "your-client-secret"
-      }
+      ]
     }
   }
 }
 ```
 
-4. Restart the MCP host/client so it reloads tools.
+5. Restart the MCP host/client so it reloads tools.
 
-5. Test the connection with the rate-limit tool first. If this works, the
+6. Test the connection with the rate-limit tool first. If this works, the
 credentials, local build, and stdio transport are all good:
 
 ```text

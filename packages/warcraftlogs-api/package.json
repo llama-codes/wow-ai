@@ -23,7 +23,8 @@
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "test": "vitest run --environment node",
-    "smoke:live": "npm run build && node dist/scripts/live-smoke.js"
+    "smoke:live": "npm run build && node dist/scripts/live-smoke.js",
+    "smoke:live:local": "npm run build && node --env-file=.env.local dist/scripts/live-smoke.js"
   },
   "keywords": [
     "warcraftlogs",
