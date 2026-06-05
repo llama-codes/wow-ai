@@ -6,10 +6,10 @@ Use this Viserio-source draft if Bobbidyboo is unavailable and Regidør replaces
 
 | Player | Spec | Role |
 | --- | --- | --- |
-| Santatumblr | Mistweaver Monk | Main healer |
+| Santatumblr | Mistweaver Monk | Main healer, unchanged timings |
 | Regidør | Holy Paladin | Filler healer replacing Restoration Druid |
-| Deviiarrc | Preservation Evoker | Main healer |
-| Nessalove | Holy Priest | Main healer |
+| Deviiarrc | Preservation Evoker | Main healer, unchanged timings |
+| Nessalove | Holy Priest | Main healer, unchanged timings |
 
 Source plan: `regidor-paladin-healing-plan.md`
 
@@ -18,6 +18,7 @@ Notes:
 - This is not a generated JSON import yet.
 - The first table is intentionally formatted as a `Time` / `Assignment` timeline so it can feed the local Viserio Markdown-to-import workflow later.
 - Mistweaver uses `Revival` because Santatumblr's existing Vanguard export uses that button name.
+- Santatumblr, Deviiarrc, and Nessalove keep the same assignments as `main-heals-viserio-setup.md`; only Bobbidyboo's Druid slot is replaced by Regidør.
 - Regidør spell rows should use `Avenging Wrath` and `Aura Mastery`, which are present in the existing Vanguard export metadata.
 - Spot calls and conditional non-healer raid DR are kept out of the import-source timeline so healer text-to-speech stays clean.
 
@@ -43,8 +44,8 @@ Notes:
 | `04:47` | Nessalove Apotheosis | Simulacrum continuation |
 | `05:38` | Regidør Avenging Wrath | 05:40-06:00 transition |
 | `05:50` | Santatumblr Invoke Yu'lon, the Jade Serpent + Celestial Conduit | Gravity Collapse + Cosmic Barrier transition |
-| `06:04` | Deviiarrc Tip the Scales | Gravity / Cosmic continuation setup |
-| `06:38` | Deviiarrc Rewind, Nessalove Divine Hymn | Gravity Collapse + Cosmic Barrier + Voidstalker Sting |
+| `06:04` | Deviiarrc Rewind + Tip the Scales | Gravity Collapse + Cosmic Barrier reset burst |
+| `06:38` | Nessalove Divine Hymn | Gravity Collapse + Voidstalker Sting |
 | `06:53` | Nessalove Apotheosis | 07:00 sustain bridge |
 | `07:34` | Deviiarrc Tip the Scales | 07:40-08:00 buildup |
 | `07:36` | Regidør Aura Mastery | Late Gravity/Cosmic overlap |
@@ -89,8 +90,8 @@ Notes:
 | `01:10` | Rewind |
 | `01:31` | Tip the Scales |
 | `04:38` | Tip the Scales |
+| `06:04` | Rewind |
 | `06:04` | Tip the Scales |
-| `06:38` | Rewind |
 | `07:34` | Tip the Scales |
 
 ### Nessalove - Holy Priest
@@ -116,7 +117,8 @@ These are separated from the Viserio import-source timeline so they do not becom
 | `04:30` | Santatumblr | Life Cocoon assigned Simulacrum target if needed. |
 | `04:30` | Nessalove | Guardian Spirit assigned Simulacrum target if needed. |
 | `04:30` | Regidør | Blessing of Sacrifice / Lay on Hands assigned Simulacrum target if needed. |
-| `06:00` | Raid | Assign Rallying Cry / AMZ / Darkness equivalent before the 06:04 Pres setup. |
+| `06:00` | Raid | Assign Rallying Cry / AMZ / Darkness equivalent before Deviiarrc `06:04` Rewind. |
+| `06:40` | Raid | Assign external DR here first if missing Bobbidyboo's Tranquility hurts. |
 | `07:36` | Deviiarrc | Zephyr if no other Evoker covers the late Gravity/Cosmic overlap. |
 | `07:36` | Raid | Assign AMZ/Darkness/equivalent if available. |
 | `07:55` | Regidør | Blessing of Sacrifice / Lay on Hands assigned late Gravity/Cosmic target if needed. |
@@ -127,8 +129,8 @@ These are separated from the Viserio import-source timeline so they do not becom
 
 | Trigger | Adjustment |
 | --- | --- |
-| The raid dies at `04:20-04:30`. | Keep Santatumblr `03:55` Revival and Regidør `04:20` Aura Mastery. Add Deviiarrc Rewind at `04:20` only if `06:40` has another answer. |
-| The raid dies at `06:00-06:10`. | Add external raid DR at `06:00`; do not move the `06:38` Rewind unless `06:40` is already safe. |
-| The raid dies at `06:40-06:50`. | Keep Nessalove `06:38` Hymn and Deviiarrc `06:38` Rewind. If still dying, move Regidør `07:36` Aura Mastery to `06:34`. |
+| The raid dies at `04:20-04:30`. | Keep Santatumblr `03:55` Revival and Regidør `04:20` Aura Mastery. Add spot saves at `04:30` before changing other healers. |
+| The raid dies at `06:00-06:10`. | Keep Deviiarrc `06:04` Rewind and add external raid DR at `06:00`. |
+| The raid dies at `06:40-06:50`. | Add external DR with Nessalove `06:38` Hymn. If still dying, move Regidør `07:36` Aura Mastery to `06:34`. |
 | The raid dies at `07:30-07:50`. | Keep Regidør `07:36` Aura Mastery and add Zephyr / AMZ / Darkness there. |
 | The raid dies at `08:00-08:10`. | Keep Santatumblr `07:55` Revival, Regidør `07:48` Avenging Wrath, and save spot externals for the 08:00 overlap. |
