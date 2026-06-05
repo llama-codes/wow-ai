@@ -13,6 +13,8 @@ This is the human-edited Viserio setup draft for Crown of the Cosmos using only 
 
 Source plan: `our-comp-healing-plan.md`
 
+Regidør swap setup: `regidor-paladin-viserio-setup.md`
+
 Notes:
 
 - This is not a generated JSON import yet.

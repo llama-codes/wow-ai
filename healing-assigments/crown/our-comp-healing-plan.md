@@ -13,6 +13,8 @@ Build a 4-healer assignment for:
 
 R06 is now an exact healer-comp kill, so it is the primary timing reference for healer cadence. It was also a long 08:59 kill with 11 deaths, mostly after 08:00, so we copy its proven timings while correcting the late reset plan instead of blindly copying every cast.
 
+If Bobbidyboo is unavailable and Regidør replaces the Restoration Druid, use `regidor-paladin-healing-plan.md` instead of trying to swap Paladin buttons into this timeline one-for-one.
+
 ## Source Logs
 
 | Ref | Report | Healer comp | Why it matters |
