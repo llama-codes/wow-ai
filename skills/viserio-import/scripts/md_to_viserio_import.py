@@ -178,9 +178,10 @@ def load_reference_spells() -> dict[str, dict[str, Any]]:
     return spells
 
 
-def parse_markdown_plan(path: Path, actor_names: list[str]) -> list[ParsedAssignment]:
+def parse_markdown_plan(path: Path, actor_names: list[str], variant: str | None = None) -> list[ParsedAssignment]:
     lines = path.read_text(encoding="utf-8").splitlines()
     table_rows: list[tuple[str, str]] = []
+    variant_key = normalize_key(variant or "")
 
     for index, line in enumerate(lines):
         cells = split_markdown_row(line)
@@ -192,6 +193,7 @@ def parse_markdown_plan(path: Path, actor_names: list[str]) -> list[ParsedAssign
 
         time_index = headers.index("time")
         assignment_index = headers.index("assignment")
+        variant_index = headers.index("variant") if "variant" in headers else None
         for row_line in lines[index + 2 :]:
             row_cells = split_markdown_row(row_line)
             if not row_cells:
@@ -200,6 +202,15 @@ def parse_markdown_plan(path: Path, actor_names: list[str]) -> list[ParsedAssign
                 continue
             if len(row_cells) <= max(time_index, assignment_index):
                 continue
+            if variant_key and variant_index is not None:
+                row_variant_text = markdown_cell_text(row_cells[variant_index]) if len(row_cells) > variant_index else ""
+                row_variants = {
+                    normalize_key(part)
+                    for part in re.split(r"[,/;|]+", row_variant_text)
+                    if normalize_key(part)
+                }
+                if row_variants and "shared" not in row_variants and variant_key not in row_variants:
+                    continue
             table_rows.append((row_cells[time_index], row_cells[assignment_index]))
         break
 
@@ -311,7 +322,12 @@ def prepare_note(assignment: ParsedAssignment) -> dict[str, Any]:
     }
 
 
-def build_import(plan_path: Path, export_data: dict[str, Any]) -> dict[str, Any]:
+def build_import(
+    plan_path: Path,
+    export_data: dict[str, Any],
+    variant: str | None = None,
+    assigned_actors_only: bool = False,
+) -> dict[str, Any]:
     actors = require_array(export_data.get("actors"), "$.actors")
     actor_map: dict[str, dict[str, Any]] = {}
     actor_ids: dict[str, str] = {}
@@ -327,7 +343,7 @@ def build_import(plan_path: Path, export_data: dict[str, Any]) -> dict[str, Any]
         actor_ids[key] = derive_actor_id(actor)
         actor_names.append(name)
 
-    assignments = parse_markdown_plan(plan_path, actor_names)
+    assignments = parse_markdown_plan(plan_path, actor_names, variant)
     catalog = SpellCatalog(export_data)
 
     for assignment in assignments:
@@ -346,8 +362,12 @@ def build_import(plan_path: Path, export_data: dict[str, Any]) -> dict[str, Any]
         actor["spells"].sort(key=lambda row: (row.get("startTime", 0), str(row.get("spell", {}).get("spellName", ""))))
         actor["notes"].sort(key=lambda row: (row.get("startTime", 0), str(row.get("noteText", ""))))
 
+    output_actors = [actor_map[normalize_key(str(require_object(actor, "$.actors[]").get("name", "")))] for actor in actors]
+    if assigned_actors_only:
+        output_actors = [actor for actor in output_actors if actor["spells"] or actor["notes"]]
+
     return {
-        "actors": [actor_map[normalize_key(str(require_object(actor, "$.actors[]").get("name", "")))] for actor in actors],
+        "actors": output_actors,
         "phases": copy.deepcopy(export_data.get("phases", [])),
         "customGridRows": copy.deepcopy(export_data.get("customGridRows", [])),
     }
@@ -358,6 +378,8 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--plan", required=True, type=Path, help="Markdown healing plan with a timeline table")
     parser.add_argument("--export", required=True, type=Path, help="Current Viserio export for roster and metadata")
     parser.add_argument("--output", required=True, type=Path, help="Viserio import JSON to write")
+    parser.add_argument("--variant", help="Optional Variant column value to include with Shared rows")
+    parser.add_argument("--assigned-actors-only", action="store_true", help="Only write actors with generated spells or notes")
     return parser.parse_args()
 
 
@@ -365,7 +387,7 @@ def main() -> int:
     args = parse_args()
     try:
         export_data = load_viserio_export(args.export)
-        output_data = build_import(args.plan, export_data)
+        output_data = build_import(args.plan, export_data, args.variant, args.assigned_actors_only)
         args.output.parent.mkdir(parents=True, exist_ok=True)
         args.output.write_text(json.dumps(output_data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     except ViserioError as exc:
