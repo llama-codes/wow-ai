@@ -1,0 +1,4 @@
+interface:
+  display_name: "Lorrgs Log Analysis"
+  short_description: "Analyze Lorrgs fight cooldown timings"
+  default_prompt: "Use $lorrgs-log-analysis to pull Mythic boss top parses and summarize cooldown timings."
